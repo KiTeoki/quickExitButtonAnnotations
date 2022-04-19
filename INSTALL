@@ -1,0 +1,10 @@
+Install python3 from https://www.python.org/downloads/
+
+Install required packages:
+```
+    pip install -r requirements.txt
+    # or
+    pip install keyboard selenium
+```
+
+Run `evaluate.py` to launch the evaluation tool.

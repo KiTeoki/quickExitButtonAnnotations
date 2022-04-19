@@ -1,0 +1,21 @@
+Quick exit button annotation tool
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+See INSTALL for installation instructions.
+
+To launch the tool, run `evaluate.py`. The console will print an overview of how to use the tool, and then launch a
+Chrome browser for annotations. On first time setup, you will be asked to input your name into the console; after this,
+you do not need to check the Python window.
+
+The annotation cycle is speedtests -> survey -> speedtests. The first round of speedtests are testing the learnability
+of the various components: how long does it take to identify where/what they are and use them. The survey then asks a
+series of questions about the usability of the different components (and the site will be open in another tab for you
+to look back at). The second round of speedtests evaluates the memorability of the components: can you remember how to
+use them after doing something else (if you don't remember, try to find them anew).
+
+After the memorability tests, the browser will show a blank page and a pop-up alert; the results for the last site are
+now saved, and you are free to take a break. The next site will load when you close the alert.
+
+Results (and your name) are saved to evaluation.json after each site. The tool will load your progress from this file
+when launched, and I will need you to send a copy of the json file when you are finished annotating.
+
+Please let me know of any bugs or problems you encounter, and I will try to fix them asap!
