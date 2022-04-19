@@ -8,3 +8,6 @@
 /.name
 /*.xml
 /*.iml
+
+# Sitelist
+/exit_button_sites.csv
