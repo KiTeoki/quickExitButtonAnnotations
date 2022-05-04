@@ -265,9 +265,12 @@ def evaluate_website(site):
         load_page(site.url)
         alert('Please find and type the quick exit keyboard shortcut')
         start = time_ns()
-        listen_for(site.shortcut)
-        end = time_ns()
-        res["learn_shortcut_time"] = (end - start) / (10 ** 9)
+        try:
+            listen_for(site.shortcut)
+            end = time_ns()
+            res["learn_shortcut_time"] = (end - start) / (10 ** 9)
+        except KeyboardInterrupt:
+            res["learn_shortcut_time"] = -1.0
         cleanup_browser()
     # Locate explainer text
     if site.has_safe_browsing_page():
