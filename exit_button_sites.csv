@@ -10,7 +10,6 @@ https://www.domesticabusehelpline.co.uk/,Domestic Abuse,Redirect,Redirect,,,,,ht
 https://www.hertsdomesticabusehelpline.org/,Domestic Abuse,Redirect,Redirect,,,,,,
 https://bswaid.org/,Domestic Abuse,window.location writer,window.location writer,,,,,,
 https://www.refuge.org.uk/,Domestic Abuse,Redirect,Redirect,,,,,,
-https://www.nationaldahelpline.org.uk/,Domestic Abuse,Unique,Unique,,,,,,Opens google in new tab then enters redirect loop in previous one.
 https://www.mankind.org.uk/,Domestic Abuse,Redirect,,,,,,,
 https://galop.org.uk/,Domestic Abuse,Redirect,Redirect,Redirect,esc,,,,ESC key functions differently to button
 https://www.ncdv.org.uk/,Domestic Abuse,,,,,,,,
@@ -336,7 +335,6 @@ https://www.acacia.org.uk/,Family Planning,,,,,,,,
 https://www.bpas.org/,Family Planning,,,,,,,,
 https://www.asn.org.uk/,Family Planning,,,,,,,,
 https://www.archtrust.org.uk/,Family Planning,,,,,,,,
-https://www.msichoices.org.uk/,Family Planning,Unique,Unique,,,,,,Same as refuge tech safety page: redirect loop + new tab
 https://www.nupas.co.uk/,Family Planning,,,,,,,,
 https://www.plannedparenthood.org/,Family Planning,,,,,,,,
 https://care.org.uk/,Family Planning,,,,,,,,
