@@ -265,12 +265,18 @@ def evaluate_website(site):
         load_page(site.url)
         alert('Please find and type the quick exit keyboard shortcut')
         start = time_ns()
+        end = start
         try:
-            listen_for(site.shortcut)
+            _ = WebDriverWait(browser, 60).until(
+                lambda d: site.url not in d.current_url
+            )
             end = time_ns()
-            res["learn_shortcut_time"] = (end - start) / (10 ** 9)
         except KeyboardInterrupt:
-            res["learn_shortcut_time"] = -1.0
+            end = start-1.0
+        except:
+            end = time_ns()
+        finally:
+            res["learn_shortcut_time"] = (end - start) / (10 ** 9)
         cleanup_browser()
     # Locate explainer text
     if site.has_safe_browsing_page():
@@ -354,9 +360,18 @@ def evaluate_website(site):
         load_page(site.url)
         alert('Please find and type the quick exit keyboard shortcut')
         start = time_ns()
-        listen_for(site.shortcut)
-        end = time_ns()
-        res["recall_shortcut_time"] = (end - start) / (10 ** 9)
+        end = start
+        try:
+            _ = WebDriverWait(browser, 60).until(
+                lambda d: site.url not in d.current_url
+            )
+            end = time_ns()
+        except KeyboardInterrupt:
+            end = start-1.0
+        except:
+            end = time_ns()
+        finally:
+            res["recall_shortcut_time"] = (end - start) / (10 ** 9)
         cleanup_browser()
     # Locate explainer text
     if site.has_safe_browsing_page():
