@@ -89,6 +89,12 @@ class AlertIsNotPresent(object):
             return True
 
 
+# Wait condition for any tab containing the site's explainer text
+class AnyTabContainsSafeBrowsingUrl(object):
+    def __call__(self, driver, site):
+        return find_tab(site.safe_browsing_url)
+
+
 # Open file containing results, progress so far as JSON
 def load_state():
     if not os.path.exists(state_filename):
@@ -178,9 +184,10 @@ def find_tab(tab_substr):
     for handle in browser.window_handles:
         browser.switch_to.window(handle)
         if tab_substr in browser.current_url:
-            return
-    # else, default to whatever tab we were already in
-
+            return True
+    # else, default to whatever tab we were already in, and return flag indicating it was not found
+    else:
+        return False
 
 # Make a mobile browser
 def mobile_browser():
@@ -265,7 +272,7 @@ def run_explainer_test(site, alert_msg):
     end = start
     try:
         _ = WebDriverWait(browser, 36000).until(
-            EC.url_contains(site.safe_browsing_url)
+            AnyTabContainsSafeBrowsingUrl(site)
         )
         end = time_ns()
     except KeyboardInterrupt:
