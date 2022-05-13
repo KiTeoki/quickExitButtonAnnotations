@@ -216,7 +216,7 @@ def desktop_browser():
 # Get a page and wait for it to load
 def load_page(url):
     browser.get(url)
-    _ = WebDriverWait(browser, 6000).until(
+    _ = WebDriverWait(browser, 36000).until(
         lambda d: d.execute_script("return document.readyState") == "complete"
     )
 
@@ -224,7 +224,7 @@ def load_page(url):
 # Show an alert and wait for it to be closed
 def alert(text):
     browser.execute_script("alert('" + text + "')")
-    _ = WebDriverWait(browser, 6000).until(AlertIsNotPresent())
+    _ = WebDriverWait(browser, 36000).until(AlertIsNotPresent())
 
 
 # Listen for sequence of keypresses
@@ -243,7 +243,7 @@ def run_exit_test(site, alert_msg):
     start = time_ns()
     end = start
     try:
-        _ = WebDriverWait(browser, 60).until(
+        _ = WebDriverWait(browser, 36000).until(
             lambda d: site.url not in d.current_url
         )
         end = time_ns()
@@ -264,7 +264,7 @@ def run_explainer_test(site, alert_msg):
     start = time_ns()
     end = start
     try:
-        _ = WebDriverWait(browser, 60).until(
+        _ = WebDriverWait(browser, 36000).until(
             EC.url_contains(site.safe_browsing_url)
         )
         end = time_ns()
