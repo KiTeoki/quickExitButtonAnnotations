@@ -235,6 +235,48 @@ def listen_for(keys):
         history.append(keyboard.read_key())
 
 
+# Wait for page to change to a different domain
+def run_exit_test(site, alert_msg):
+    global browser
+    load_page(site.url)
+    alert(alert_msg)
+    start = time_ns()
+    end = start
+    try:
+        _ = WebDriverWait(browser, 60).until(
+            lambda d: site.url not in d.current_url
+        )
+        end = time_ns()
+    except KeyboardInterrupt:
+        end = start - 1.0
+    except:
+        end = time_ns()
+    finally:
+        cleanup_browser()
+        return (end - start) / (10 ** 9)
+
+
+# Wait for specific page to be loaded
+def run_explainer_test(site, alert_msg):
+    global browser
+    load_page(site.url)
+    alert(alert_msg)
+    start = time_ns()
+    end = start
+    try:
+        _ = WebDriverWait(browser, 60).until(
+            EC.url_contains(site.safe_browsing_url)
+        )
+        end = time_ns()
+    except KeyboardInterrupt:
+        end = start - 1.0
+    except:
+        end = time_ns()
+    finally:
+        cleanup_browser()
+        return (end - start) / (10 ** 9)
+
+
 # Evaluate a single website
 def evaluate_website(site):
     global browser, evaluator_name
@@ -251,43 +293,13 @@ def evaluate_website(site):
     # RUN TIMING TESTS
     # Button click test
     if site.has_button():
-        load_page(site.url)
-        alert('Please find and click the quick exit button')
-        start = time_ns()
-        _ = WebDriverWait(browser, 60).until(
-            lambda d: site.url not in d.current_url
-        )
-        end = time_ns()
-        res["learn_button_time"] = (end - start) / (10 ** 9)
-        cleanup_browser()
+        res["learn_button_time"] = run_exit_test(site, 'Please find and click the quick exit button')
     # Shortcut tests
     if site.has_shortcut():
-        load_page(site.url)
-        alert('Please find and type the quick exit keyboard shortcut')
-        start = time_ns()
-        end = start
-        try:
-            _ = WebDriverWait(browser, 60).until(
-                lambda d: site.url not in d.current_url
-            )
-            end = time_ns()
-        except KeyboardInterrupt:
-            end = start-1.0
-        except:
-            end = time_ns()
-        finally:
-            res["learn_shortcut_time"] = (end - start) / (10 ** 9)
-        cleanup_browser()
+        res["learn_shortcut_time"] = run_exit_test(site, 'Please find and type the quick exit keyboard shortcut')
     # Locate explainer text
     if site.has_safe_browsing_page():
-        load_page(site.url)
-        alert('Please find and go to the safe browsing information page')
-        start = time_ns()
-        _ = WebDriverWait(browser, 60).until(
-            EC.url_contains(site.safe_browsing_url)
-        )
-        end = time_ns()
-        res["learn_explainer_time"] = (end - start) / (10 ** 9)
+        res["learn_explainer_time"] = run_explainer_test(site, 'Please find and go to the safe browsing information page')
 
     # Reset site for evaluator to view
     load_page(site.url)
@@ -346,43 +358,13 @@ def evaluate_website(site):
     # RUN MEMORABILITY TIMING TESTS
     # Button click test
     if site.has_button():
-        load_page(site.url)
-        alert('Please find and click the quick exit button')
-        start = time_ns()
-        _ = WebDriverWait(browser, 60).until(
-            lambda d: site.url not in d.current_url
-        )
-        end = time_ns()
-        res["recall_button_time"] = (end - start) / (10 ** 9)
-        cleanup_browser()
+        res["recall_button_time"] = run_exit_test(site, 'Please find and click the quick exit button')
     # Shortcut tests
     if site.has_shortcut():
-        load_page(site.url)
-        alert('Please find and type the quick exit keyboard shortcut')
-        start = time_ns()
-        end = start
-        try:
-            _ = WebDriverWait(browser, 60).until(
-                lambda d: site.url not in d.current_url
-            )
-            end = time_ns()
-        except KeyboardInterrupt:
-            end = start-1.0
-        except:
-            end = time_ns()
-        finally:
-            res["recall_shortcut_time"] = (end - start) / (10 ** 9)
-        cleanup_browser()
+        res["recall_shortcut_time"] = run_exit_test(site, 'Please find and type the quick exit keyboard shortcut')
     # Locate explainer text
     if site.has_safe_browsing_page():
-        load_page(site.url)
-        alert('Please find and go to the quick exit explainer page')
-        start = time_ns()
-        _ = WebDriverWait(browser, 60).until(
-            EC.url_contains(site.safe_browsing_url)
-        )
-        end = time_ns()
-        res["recall_explainer_time"] = (end - start) / (10 ** 9)
+        res["recall_explainer_time"] = run_explainer_test(site, 'Please find and go to the safe browsing information page')
 
     # Return results for this site
     return res
