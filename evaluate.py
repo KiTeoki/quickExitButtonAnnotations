@@ -131,12 +131,16 @@ def parse_site_list():
         for site in data:
             # Read fields from CSV
             url = site[0]
-            has_desktop_button = site[2] != ""
-            has_mobile_button = site[3] != ""
-            desktop_shortcut = site[5] if site[5] != "" else None
-            mobile_shortcut = site[6] if site[6] != "" else None
-            explainer_text = site[7] != ""
-            safe_browsing_url = site[8] if site[8] != "" else None
+            # category = site[1]
+            # region = site[2]
+            has_desktop_button = site[3] != ""
+            has_mobile_button = site[4] != ""
+            # shortcut_type = site[5]
+            desktop_shortcut = site[6] if site[6] != "" else None
+            mobile_shortcut = site[7] if site[7] != "" else None
+            explainer_text = site[8] != ""
+            safe_browsing_url = site[9] if site[9] != "" else None
+            # comments = site[10]
 
             # Add to relevant list(s)
             if has_desktop_button or desktop_shortcut is not None:
