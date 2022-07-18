@@ -131,6 +131,9 @@ def parse_site_list():
         for site in data:
             # Read fields from CSV
             url = site[0]
+            if url == "":
+                # blank or analytics row
+                continue
             # category = site[1]
             # region = site[2]
             has_desktop_button = site[3] != ""
