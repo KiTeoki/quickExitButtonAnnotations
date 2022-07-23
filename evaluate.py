@@ -91,11 +91,13 @@ class AlertIsNotPresent(object):
 
 # Wait condition for any tab containing the site's explainer text
 class AnyTabContainsSafeBrowsingUrl(object):
-    def __call__(self, driver, site):
-        global browser
+    def __init__(self, site):
+        self._site = site
+
+    def __call__(self, driver):
         for handle in browser.window_handles:
             browser.switch_to.window(handle)
-            if site.safe_browsing_url in browser.current_url:
+            if self._site.safe_browsing_url in browser.current_url:
                 return True
         # else, default to whatever tab we were already in, and return flag indicating it was not found
         else:
