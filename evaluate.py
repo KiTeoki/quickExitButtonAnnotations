@@ -405,6 +405,7 @@ def evaluate_all():
             desktop_site_list.remove(cs)
         elif mobile and cs in mobile_site_list:
             mobile_site_list.remove(cs)
+    print(f"You have {len(desktop_site_list)} desktop sites and {len(mobile_site_list)} mobile sites remaining.")
 
     if "" == evaluator_name:
         # First time setup
@@ -477,6 +478,6 @@ take a break, or to close the browser and save your progress for later.
     parse_site_list()
     # desktop_site_list = list(filter(lambda s: s.has_shortcut(), desktop_site_list))  # Shortcut sites only
     # print("\n".join(map(str, desktop_site_list)), "\n------------\n", "\n".join(map(str, mobile_site_list)))
-    print(f"You have {len(desktop_site_list)} desktop and {len(mobile_site_list)} mobile sites left to evaluate.")
+    print(f"{len(desktop_site_list)} desktop sites and {len(mobile_site_list)} mobile sites loaded.")
     evaluate_all()
     close_browser()
