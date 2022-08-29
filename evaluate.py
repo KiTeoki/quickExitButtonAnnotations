@@ -223,6 +223,7 @@ def mobile_browser():
     browser = Chrome(service=chrome_driver_service, options=options)
     browser.set_window_size(width, height+150)
     using_mobile = True
+    return browser
 
 
 # Make a desktop browser
@@ -236,6 +237,7 @@ def desktop_browser():
     options.add_experimental_option('useAutomationExtension', False)
     browser = Chrome(service=chrome_driver_service, options=options)
     using_mobile = False
+    return browser
 
 
 # Get a page and wait for it to load
