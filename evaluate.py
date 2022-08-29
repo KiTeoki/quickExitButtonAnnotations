@@ -273,7 +273,11 @@ def run_exit_test(site, alert_msg):
         _ = WebDriverWait(browser, 36000).until(
             lambda d: site.url not in d.current_url and
                       site.url.replace("www.","") not in d.current_url and
-                      site.url.replace("://","://www.") not in d.current_url
+                      site.url.replace("://","://www.") not in d.current_url and
+                      site.url.replace("www.","").replace("http://","https://") not in d.current_url and
+                      site.url.replace("http://","https://www.") not in d.current_url and
+                      site.url.replace("www.","").replace("https://","http://") not in d.current_url and
+                      site.url.replace("https://","http://www.") not in d.current_url
         )
         end = time_ns()
     except KeyboardInterrupt:
