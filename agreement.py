@@ -30,7 +30,7 @@ def load_survey_data():
                 responses[site,platform] = [row]
     return responses
 
-def agreements(responses):
+def agreements(responses, squash_agree=False):
     # For each survey likert scale, compute Fleiss' Kappa
     questions = ['button-discover','button-distinct','shortcut-discover','shortcut-intuitive',
                 'text-discover', 'text-comprehend', 'safety-discover']
@@ -50,10 +50,23 @@ def agreements(responses):
                 counts = Counter(filtered_responses)
                 options = ['Strongly disagree', 'Somewhat disagree', 'Neither agree nor disagree', 'Somewhat agree',
                            'Strongly agree']
-                confusion_mat.append([counts[option] if option in counts else 0 for option in options])
+                if squash_agree:
+                    # Sum the strongly/somewhat answers
+                    confusion_mat.append([
+                        (counts['Strongly disagree'] if 'Strongly disagree' in counts else 0) +
+                        (counts['Somewhat disagree'] if 'Somewhat disagree' in counts else 0),
+                        (counts['Neither agree nor disagree'] if 'Neither agree nor disagree' in counts else 0),
+                        (counts['Somewhat agree'] if 'Somewhat agree' in counts else 0) +
+                        (counts['Strongly agree'] if 'Strongly agree' in counts else 0)
+                    ])
+                else:
+                    confusion_mat.append([counts[option] if option in counts else 0 for option in options])
 
                 # COHENS KAPPA IMPLEMENTATION
                 for response in responses[site]:
+                    if squash_agree:
+                        # Combine strongly/somewhat answers into agree/disagree
+                        response[question] = response[question].replace("Somewhat ","").replace("Strongly ","")
                     person_responses[response['eval-name']].append(response[question])
         # Fleiss' Kappa
         confusion_mat = np.array(confusion_mat)
@@ -75,6 +88,6 @@ def agreements(responses):
 
 if __name__ == "__main__":
     responses = load_survey_data()
-    kappas = agreements(responses)
+    kappas = agreements(responses, True)
     print(str(kappas).replace("},", "},\n"))
 
