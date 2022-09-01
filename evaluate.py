@@ -16,7 +16,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import json
 import os
 import random
-from time import time_ns
+from time import time_ns, sleep
 import keyboard
 
 # Globals
@@ -338,6 +338,7 @@ def evaluate_website(site):
     load_page(site.url)
     # Load site evaluation survey
     browser.execute_script(f"window.open('{survey_url}');")
+    sleep(0.5)
     find_tab("qualtrics")
 
     # Autofill first page (evaluator & site info)
