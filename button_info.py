@@ -6,7 +6,7 @@ import time
 from sys import exit
 
 from evaluate import Site, parse_site_list, desktop_site_list, mobile_site_list, sitelist_filename
-from evaluate import desktop_browser, mobile_browser
+from evaluate import desktop_browser, mobile_browser, cleanup_browser
 
 browser = None
 state = {}
@@ -261,6 +261,8 @@ def save_and_next():
 
     # Reset variables
     reset_state()
+    # Cleanup extra tabs etc
+    cleanup_browser()
 
     # Go to next site
     if len(desktop_site_list) > 0:
