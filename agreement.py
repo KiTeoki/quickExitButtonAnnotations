@@ -48,6 +48,8 @@ def agreements(responses, squash_agree=False):
                 filtered_responses = [d[question] for d in filter(
                     lambda r: question in r and r[question] != '' and r['eval-name'] != 'Yanna', responses[site])]
                 counts = Counter(filtered_responses)
+                if len(filtered_responses) > 2:
+                    print(f"duplicates for {site=}")
                 options = ['Strongly disagree', 'Somewhat disagree', 'Neither agree nor disagree', 'Somewhat agree',
                            'Strongly agree']
                 if squash_agree:
