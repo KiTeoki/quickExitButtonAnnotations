@@ -23,7 +23,7 @@ def reset_state():
         'location': 'top right',
         'type': 'button',
         'sticky': True,
-        'visible': True,
+        'visible': 'Yes',
         #'label': '',
         #'clicks to exit': '',
         #'landing': [],
@@ -80,7 +80,7 @@ def click_sticky_btn(sticky):
 
 visible_btns = []
 def click_visible_btn(visible):
-    state['visible'] = visible == 'Yes'
+    state['visible'] = visible
     for btn in visible_btns:
         if btn.cget('text') == visible:
             btn.configure(bg='#00c000')
@@ -90,6 +90,10 @@ def click_visible_btn(visible):
 def click_url_btn():
     global browser
     browser.get(entry_vars['url'].get())
+
+def click_text_btn():
+    click_type_btn("text")
+    click_size_btn("text")
 
 landing_entry = None
 def save_landing_sites():
@@ -163,6 +167,8 @@ def make_eval_window():
         for c in range(3):
             button = tk.Button(btn_properties_frame, text=sizes[3 * r + c], bg='#ffffff',
                                command=(lambda size=sizes[3*r+c]: click_size_btn(size)))
+            if r==0 and c==0:
+                button.configure(command=click_text_btn)
             if r==0 and c==2:
                 button.configure(bg='#00c000')
                 default_buttons.append(button)
@@ -198,6 +204,8 @@ def make_eval_window():
         if i == 0:
             button.configure(bg='#00c000')
             default_buttons.append(button)
+        if i == 4:
+            button.configure(command=click_text_btn)
         button.grid(row=1, column=i, sticky='nesw')
         type_btns.append(button)
         buttons.append(button)
@@ -211,9 +219,10 @@ def make_eval_window():
     sticky_btns.append(is_sticky); sticky_btns.append(not_sticky)
     tk.Label(bools_frame, text="Is the button visible on first load?").grid(row=2, sticky='nesw', columnspan=2)
     is_visible = tk.Button(bools_frame, text='Yes', bg='#00c000', command=(lambda: click_visible_btn('Yes'))); is_visible.grid(row=3, sticky='nesw')
-    not_visible = tk.Button(bools_frame, text='No', bg='#ffffff', command=(lambda: click_visible_btn('No'))); not_visible.grid(row=3, column=1, sticky='nesw')
-    buttons.append(is_visible); buttons.append(not_visible); default_buttons.append(is_visible)
-    visible_btns.append(is_visible); visible_btns.append(not_visible)
+    cookie_visible = tk.Button(bools_frame, text='Cookie Notice', bg='#ffffff', command=(lambda: click_visible_btn('Cookie Notice'))); cookie_visible.grid(row=3, column=1, sticky='nesw')
+    not_visible = tk.Button(bools_frame, text='No', bg='#ffffff', command=(lambda: click_visible_btn('No'))); not_visible.grid(row=3, column=2, sticky='nesw')
+    buttons.append(is_visible); buttons.append(cookie_visible); buttons.append(not_visible); default_buttons.append(is_visible)
+    visible_btns.append(is_visible); visible_btns.append(cookie_visible); visible_btns.append(not_visible)
     bools_frame.grid(row=4, sticky='nesw')
     # clicks
     num_clicks_frame = tk.Frame(window)
