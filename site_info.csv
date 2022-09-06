@@ -1,0 +1,62 @@
+URL,Platform,Colour,Background Colour,Size,Location,Type,Sticky?,Visible on load?,Label,Clicks Required,Goes To URL
+https://www.womensaid.org.uk/,Desktop,#D8DE26,#FFFFFF,average,right,button,True,True,EXIT SITE,1,https://www.google.co.uk/
+http://www.berkshirewomensaid.org.uk/,Desktop,#E3007A,#FFFFFF,average,top right,button,True,True,LEAVE THIS SITE NOW,1,https://www.bbc.co.uk/sport
+https://fifewomensaid.org.uk/,Desktop,#EC0741,#FFFFFF,text,top left,text,True,True,Leave the site,1,https://www.bbc.co.uk/
+https://www.jwa.org.uk/,Desktop,#CA27B1,#72246E,average,right,button,True,True,EXIT SITE,1,https://www.bbc.co.uk/weather
+https://junowomensaid.org.uk/,Desktop,#FF0000,#FFFFFF,average,right,button,True,True,Quick exit,1,https://www.google.co.uk/
+https://www.welshwomensaid.org.uk/,Desktop,#B8E986,#FFFFFF,average,right,button,True,True,EXIT,1,https://www.bbc.co.uk/
+https://www.domesticabusehelpline.co.uk/,Desktop,#200D81,#FFFFFF,average,top right,button,False,True,LEAVE THIS SITE NOW,1,https://www.google.com/?gws_rd=ssl
+https://www.hertsdomesticabusehelpline.org/,Desktop,#8C56AE,#FFFFFF,average,top right,button,True,True,EXIT SITE,1,https://www.google.co.uk/
+https://bswaid.org/,Desktop,#FFFFFF,#F2EEF5,average,top right,button,False,True,Exit website,1,https://www.google.co.uk/
+https://www.refuge.org.uk/,Desktop,#76BEBA,#241A3D,average,bottom right,button,True,True,Quick exit,1,https://www.google.com/;https://www.google.com/
+https://www.nationaldahelpline.org.uk/,Desktop,#5166EF,#FFFFFF,long,bottom right,button,True,True,Quick exit Click to leave site immediately,1,https://www.google.com/;http://312tpfk.beta-host.co.uk/?current=1662253308113;https://www.google.co.uk/
+https://www.mankind.org.uk/,Desktop,#0B74A8,#F0F3F5,average,top right,button,True,True,CLICK TO ESCAPE,1,https://www.google.co.uk/
+https://galop.org.uk/,Desktop,#E00303,#84B554,average,bottom left,button,True,True,EXIT SITE,1,https://www.google.com/search?q=recipes&oq=recipes;https://www.google.com/search?q=healthy+recipes&oq=healthy+recipes
+https://rightsofwomen.org.uk/,Desktop,#663366,#FFFFFF,average,top right,button,False,True,Hide your tracks,1,https://www.google.com/search?q=recipes&oq=recipes;https://www.google.co.uk/
+https://www.solacewomensaid.org/,Desktop,#FF1900,#FFFFFF,average,right,image,True,True,EXIT SITE,1,https://www.google.com/search?q=recipes&oq=recipes;https://www.google.co.uk/
+https://thedashcharity.org.uk/,Desktop,#44B8BA,#F9F9F9,long,bottom right,button,True,True,EXIT SITE,1,https://www.bbc.co.uk/weather
+https://www.saferplaces.co.uk/,Desktop,#D87F81,#EAEAF3,long,right,button,True,True,QUICK EXIT,1,https://www.bbc.co.uk/
+http://www.ashianasheffield.org/,Desktop,#B18DB1,#FFFFFF,average,top left,button,True,True,Hide this page,1,https://www.google.com/
+https://www.roshnibirmingham.org.uk/,Desktop,#7D0612,#2C2A7D,small,top,button,False,True,EXIT,1,https://www.google.com/
+https://abusedmeninscotland.org/,Desktop,#113D69,#FFFFFF,average,bottom right,button,True,True,Safety Exit,1,https://www.google.com/;https://www.google.com/
+https://www.opoka.org.uk/,Desktop,#F49600,#FFFFFF,average,bottom right,button,True,True,EXIT SITE,1,https://www.google.com/;https://www.bbc.co.uk/weather/2654675
+https://www.saferwales.com/about-us,Desktop,#00888A,#201A16,average,side menu,button,True,True,EMERGENCY ESCAPE,1,https://www.bbc.co.uk/weather
+https://www.sdafmh.org.uk/en/,Desktop,#3C3735,#FCF4F1,average,top right,button,True,True,Exit site,1,https://www.google.com/;https://www.bbc.co.uk/weather/2650225
+https://www.theelmfoundation.org.uk/,Desktop,#63B27C,#FFFFFF,average,top right,button,True,True,Leave to google/facebook,1,https://www.google.com/
+https://www.havenrefuge.org.uk/,Desktop,#815BAD,#FFFFFF,average,right,button,True,True,EXIT PAGE,1,https://www.google.com/;https://www.google.com/;https://open.spotify.com/;https://www.nhs.uk/conditions/coronavirus-covid-19/how-to-avoid-catching-and-spreading-coronavirus-covid-19/;https://en.wikipedia.org/wiki/Main_Page;https://soundcloud.com/;https://www.audible.co.uk/;https://www.youtube.com/;https://www.msn.com/en-gb/news;https://www.broadbandspeedchecker.co.uk/;https://www.google.com/;https://www.gov.uk/coronavirus;https://metro.co.uk/;https://www.pinterest.co.uk/;https://en.wikipedia.org/wiki/Main_Page;https://www.youtube.com/;https://open.spotify.com/;https://www.google.com/
+https://www.thewishcentre.org/,Desktop,#11A19A,#FFFFFF,average,bottom left,button,True,True,Quick exit,1,https://www.google.co.uk/
+https://yourbestfriend.org.uk/,Desktop,#E72145,#FEF4F6,average,bottom right,button,True,True,LEAVE THIS SITE,1,https://www.bbc.co.uk/news
+https://enough.campaign.gov.uk/,Desktop,#FF604D,#000000,average,right,button,True,True,Quick exit this site,1,https://www.google.com/
+https://www.hestia.org/,Desktop,#F1BC41,#FFFFFF,average,right,button,True,True,Exit site,1,https://www.bbc.co.uk/
+https://womanstrust.org.uk/,Desktop,#D50630,#FFFFFF,average,content,button,False,True,Quick Exit,1,https://www.google.co.uk/?gws_rd=ssl
+https://www.bright-sky.org.uk/,Desktop,DOWN
+https://www.womensaid.ie/,Desktop,#FFFFFF,#7F56C6,text,top,text,False,True,Change this site,1,https://www.her.ie/;https://www.her.ie/
+https://www.safeireland.ie/,Desktop,#FFFFFF,#080402,text,top right,text,True,True,Exit this website NOW,1,https://www.google.ie/
+http://www.carlowwomensaid.ie/,Desktop,#D40404,#FFFFFF,average,top right,button,False,True,ESCAPE,1,https://www.google.ie/
+https://tearmann.net/,Desktop,#000000,#FFFFFF,average,top right,image,False,True,,1,https://tearmann.net/;https://www.google.ie/
+https://www.westcorkwomensproject.ie/,Desktop,#BA1010,#2D527D,average,top right,button,True,True,SAFE EXIT,1,https://www.google.ie/
+https://www.osscork.com/,Desktop,#000000,#FFFFFF,text,top,text,False,True,EXIT,1,https://www.google.com/
+https://cuanleerefuge.org/,Desktop,#C70000,#31B2DE,wide,top right,button,False,True,Leave Website Immediately,1,https://www.rte.ie/
+https://donegalwomenscentre.ie/,Desktop,#4781B6,#EDEDED,text,top right,text,True,True,EXIT SITE NOW,1,https://www.google.ie/
+https://www.ldvs.org/,Desktop,#B80B6C,#FFFFFF,average,content,button,False,Yes,Hide this page,1,https://www.register365.com/default/holding/index/domain/visitinishowen.com
+https://www.donegaldomesticviolenceservices.ie/,Desktop,#2A2A2A,#FFFFFF,average,right,button,True,Yes,EXIT SITE,1,https://www.google.com/
+https://sdvs.ie/,Desktop,#64CAD7,#FFFFFF,average,right,button,True,Yes,EXIT SITE,1,https://www.google.ie/?gws_rd=ssl
+https://aoibhneas.ie/,Desktop,#6E7587,#D7D9E0,average,top right,button,True,Yes,Hide/Exit,1,https://www.google.ie/;https://www.rte.ie/
+https://kerryrefuge.com/,Desktop,#E00000,#FFFFFF,average,top right,button,False,Yes,SAFE EXIT,1,https://www.google.ie/
+http://www.teachtearmainn.ie/,Desktop,#FFFFFF,#263333,small,top,button,False,Yes,Safe Exit,1,https://www.google.ie/
+https://domesticviolence.ie/,Desktop,#DD3333,#FFFFFF,average,top right,button,True,No,LEAVE NOW,1,https://www.google.ie/
+https://roscommonsafelink.ie/,Desktop,#D03A3A,#FFFFFF,average,bottom right,button,True,Yes,LEAVE SITE NOW,1,https://www.google.com/;https://www.google.com/
+https://www.droghedarefuge.org/,Desktop,#333333,#FFFFFF,average,top right,button,False,Yes,GET ME OFF THIS SITE!,1,https://www.google.ie/
+https://www.lwl.ie/,Desktop,#CE2525,#FFFFFF,average,top right,button,False,Yes,EXIT THIS WEBSITE,1,https://www.google.ie/
+https://womensrefuge.org.nz/,Desktop,#FFDD00,#FFFFFF,average,top right,button,True,Yes,Quick Exit,1,https://www.stuff.co.nz/
+https://www.safetotalk.nz/,Desktop,#FFFFFF,#2C3949,average,bottom,button,True,Yes,Quick exit,1,https://www.google.co.nz/search?q=todays+weather
+https://www.2shine.org.nz/,Desktop,#FFFFFF,#FF6602,average,top,button,True,Yes,QUICK EXIT,1,https://www.stuff.co.nz/
+https://www.areyouok.org.nz/,Desktop,#FFFFFF,#262020,average,bottom right,text,True,Yes,Exit site,1,https://covid19.govt.nz/
+https://nnfvs.org.nz/,Desktop,#1D1D1B,#90D1F3,average,top,button,True,Yes,Quick Exit,1,https://www.google.com/
+https://www.avivafamilies.org.nz/,Desktop,#FFFFFF,#FFFFFF,average,top,button,False,Yes,Quick Exit,1,https://www.stuff.co.nz/
+https://taurangawomensrefuge.co.nz/,Desktop,#FFDD00,#FFFFFF,average,top right,button,True,Yes,QUICK EXIT,1,https://www.stuff.co.nz/
+https://www.1800respect.org.au/,Desktop,#D73A0F,#FFFFFF,small,top right,button,False,Yes,EXIT,1,https://www.google.com.au/
+https://dvrcv.org.au/,Desktop,#DD3333,#FFFFFF,average,top right,button,True,Yes,Quick Exit,1,https://www.google.com/
+https://www.dvconnect.org/,Desktop,#D94040,#FFFFFF,average,right,button,True,Yes,QUICK EXIT,1,https://www.google.com/
+https://dvcs.org.au/,Desktop,#B51500,#FFFFFF,average,right,button,True,Yes,QUICK ESCAPE,1,https://www.google.com/
+https://techsafety.org.au/,Desktop,#005C93,#FFFFFF,text,content,text,True,No,Exit from this website,1,https://www.google.com.au/
