@@ -238,17 +238,17 @@ def make_eval_window():
     # clicks
     num_clicks_frame = tk.Frame(window)
     tk.Label(num_clicks_frame, text="Number of clicks for button").grid(sticky='nesw')
-    num_clicks_entry = tk.Entry(num_clicks_frame, textvariable=entry_vars['clicks to exit']); num_clicks_entry.grid()
+    num_clicks_entry = tk.Entry(num_clicks_frame, textvariable=entry_vars['clicks to exit']); num_clicks_entry.grid(sticky='nesw')
     num_clicks_frame.grid(row=5, sticky='nesw')
     # Label (text indicating it is an exit button, if present
     label_frame = tk.Frame(window)
-    tk.Label(label_frame, text="Label of button, if any").grid(sticky='nesw')
-    label_entry = tk.Entry(label_frame, textvariable=entry_vars['label']); label_entry.grid()
+    tk.Label(label_frame, text="Label of button, if any").grid()
+    label_entry = tk.Entry(label_frame, textvariable=entry_vars['label']); label_entry.grid(sticky='nesw')
     label_frame.grid(row=6, sticky='nesw')
     # landing site
     landing_frame = tk.Frame(window)
     tk.Label(landing_frame, text="Landing URL(s):").grid()
-    landing_entry = tk.Entry(landing_frame, textvariable=entry_vars['landing']); landing_entry.grid(row=1)
+    landing_entry = tk.Entry(landing_frame, textvariable=entry_vars['landing']); landing_entry.grid(row=1, sticky='nesw')
     tk.Button(landing_frame, text='Save current URL(s) as landing site(s)', bg='#ffffff',
               command=save_landing_sites).grid(row=2)
     landing_frame.grid(row=7, sticky='nesw')
