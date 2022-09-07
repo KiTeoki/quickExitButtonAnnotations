@@ -129,7 +129,7 @@ def save_completed_annotation():
         # text label (if any), num. clicks required, landing page(s)
         entry_vars['label'].get(), entry_vars['clicks to exit'].get(), entry_vars['landing'].get()
     ]
-    print(record)
+    #print(record)
     # Convert to csv and write to file
     with open(mechanism_info_filename, "a", newline='') as f:
         writer = csv.writer(f, delimiter=',', quoting=csv.QUOTE_MINIMAL)
@@ -267,6 +267,7 @@ def save_and_next():
         del mobile_site_list[0]
     else:
         raise Exception('Invalid current platform: '+current_platform)
+    print(f"You have {len(desktop_site_list)} desktop sites and {len(mobile_site_list)} mobile sites remaining.")
 
     # Reset variables
     reset_state()
