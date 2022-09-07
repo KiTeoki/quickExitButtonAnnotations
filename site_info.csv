@@ -60,3 +60,433 @@ https://dvrcv.org.au/,Desktop,#DD3333,#FFFFFF,average,top right,button,True,Yes,
 https://www.dvconnect.org/,Desktop,#D94040,#FFFFFF,average,right,button,True,Yes,QUICK EXIT,1,https://www.google.com/
 https://dvcs.org.au/,Desktop,#B51500,#FFFFFF,average,right,button,True,Yes,QUICK ESCAPE,1,https://www.google.com/
 https://techsafety.org.au/,Desktop,#005C93,#FFFFFF,text,content,text,True,No,Exit from this website,1,https://www.google.com.au/
+https://www.servicesaustralia.gov.au/family-and-domestic-violence,Desktop,#5F4568,#000000,large,bottom,banner,True,Yes,QUICK EXIT,1,https://www.google.com.au/;https://www.google.com.au/
+https://www.safesteps.org.au/,Desktop,#7055C5,#F9F5F0,average,top right,button,True,Yes,Quick exit,1,https://www.google.com/
+https://relationships.org.au/,Desktop,#DE6026,#FFFFFF,average,top right,button,True,Yes,Quick Exit,1,https://www.google.com/
+https://www.ourwatch.org.au/,Desktop,#EDEDED,#FFFFFF,average,top right,button,True,Yes,Quick exit,1,https://www.google.com.au/
+https://www.anrows.org.au/,Desktop,#7D791C,#1F1E1E,average,top right,button,False,Yes,QUICK ESCAPE,1,https://www.news.com.au/
+https://ntv.org.au/get-help/,Desktop,#008EA6,#3EA9BB,average,top right,button,True,Yes,QUICK EXIT,1,https://www.google.com.au/
+https://www.speakout.dcj.nsw.gov.au/,Desktop,#D000A7,#FFFFFF,average,top right,button,True,Yes,QUICK EXIT,1,http://www.bom.gov.au/
+https://safeandequal.org.au/,Desktop,#DD3333,#000000,average,top right,button,True,Yes,Quick Exit,1,https://www.google.com/
+https://www.relationshipsnsw.org.au/support-services-category/domestic-violence/,Desktop,#B3533F,#FFFFFF,average,bottom left,button,True,Yes,Quick exit,1,https://www.google.com/;http://www.bom.gov.au/
+https://www.whiteribbon.org.au/Find-Help/Help-Lines,Desktop,#000000,#FFFFFF,average,bottom right,button,True,Yes,Quick Exit (esc),1,https://www.google.com/
+https://www.anglicarevic.org.au/,Desktop,#333333,#FFFFFF,average,right,button,True,Yes,Quick Exit,1,https://www.google.com/
+https://centreagainstviolence.org.au/,Desktop,#D7A2DA,#FFFFFF,average,top right,button,True,Yes,QUICK EXIT,1,https://www.google.com.au/
+https://www.cnv.org.au/,Desktop,#B8CCA3,#FFFFFF,wide,top right,banner,True,Yes,QUICK EXIT,1,http://www.bom.gov.au/;https://www.facebook.com/
+https://www.techsafety.org/,Desktop,#E98307,#FFFFFF,average,right,button,False,Yes,QUICK EXIT,1,https://www.google.com/
+https://esperanzaunited.org/en/,Desktop,#702B63,#FFFFFF,small,right,button,True,Yes,,1,https://www.google.com/
+https://www.safehorizon.org/,Desktop,#AD0006,#FFFFFF,long,left,button,True,Yes,Quickly exit site,2,https://www.google.com/
+https://theinitiativecolorado.org/,Desktop,#FFB800,#FFFFFF,average,right,button,True,Yes,Exit,1,http://www.weather.com/
+https://www.udvc.org/,Desktop,#FFFFFF,#874898,average,top right,button,False,Yes,LEAVE SITE,1,https://weather.com/en-GB/?Goto=Redirected
+https://www.thehotline.org/,Desktop,#D94759,#FFFFFF,average,top right,button,True,Yes,exit,1,https://www.google.com/
+https://ncadv.org/,Desktop,#D53F15,#FFFFFF,average,bottom right,button,True,Yes,Safety Exit!,1,https://www.google.com/
+https://www.cadamn.org/,Desktop,#EE2E26,#FFFFFF,average,top right,button,True,Yes,LEAVE SITE,1,https://weather.com/en-GB/?Goto=Redirected
+https://www.vfmn.org/,Desktop,#EF6A5A,#6F3A8F,wide,top right,button,True,Yes,LEAVE SITE NOW,1,https://www.google.com/
+https://cornerstonemn.org/,Desktop,#D76D48,#FFFFFF,average,top right,button,True,Yes,LEAVE SITE,1,https://www.google.com/
+https://www.nrcdv.org/,Desktop,#501542,#FFFFFF,average,top right,image,True,Yes,Escape,1,https://www.google.com/
+http://www.nationalcenterdvtraumamh.org/,Desktop,#041E35,#FFFFFF,average,top right,button,False,Yes,Escape To Google,1,https://www.google.com/
+https://www.futureswithoutviolence.org/,Desktop,#F58220,#FFFFFF,average,top right,image,True,Yes,,1,https://www.google.com/
+https://nnedv.org/,Desktop,#F69D36,#7E7E7E,average,top right,button,True,Yes,EXIT SITE,1,https://www.google.com/
+https://domesticviolenceresourcecenter.org/,Desktop,#FF8639,#FFFFFF,average,right,button,True,Yes,ESCAPE SITE,1,https://domesticviolenceresourcecenter.org/;https://www.vanityfair.com/
+https://sosviolenceconjugale.ca/en,Desktop,#262626,#FFFFFF,text,bottom right,text,True,Yes,Emergency exit,1,https://www.ikea.com/ca/en/cat/shelf-units-11465/
+https://www.learningtoendabuse.ca/,Desktop,#2196C5,#FFFFFF,average,top right,button,False,Yes,HIDE THIS PAGE,1,https://www.google.ca/
+https://endingviolence.org/,Desktop,#BC8909,#7D1706,average,top,button,False,Yes,Exit Now,1,https://www.google.com/
+https://femaide.ca/english/,Desktop,#FFFFFF,#DD7826,text,top,text,False,Yes,Sortir imm�diatement de ce site,1,https://www.google.ca/
+https://domesticabuseservices.ca/,Desktop,#8ABEC4,#FFFFFF,average,bottom right,button,True,Yes,Quick Exit,1,https://www.ted.com/podcasts;https://www.google.com/
+https://endingviolencecanada.org/,Desktop,#CE2F33,#FFFFFF,average,content,button,False,Yes,EXIT NOW,1,https://www.theweathernetwork.com/ca
+https://www.lawc.on.ca/,Desktop,#6A5CA0,#FFFFFF,average,right,button,True,Yes,EXIT,1,https://www.google.ca/
+https://www.anovafuture.org/,Desktop,#FFFFFF,#1C3461,text,top right,text,True,Yes,Hide Screen,1,https://www.google.com/
+https://www.fvps.ca/,Desktop,#865EA0,#FFFFFF,wide,top,banner,False,Yes,Please click here if you need to leave this site quickly,1,https://www.google.ca/
+https://ywcaregina.com/,Desktop,#EFEFEF,#EFEFEF,average,top right,button,True,Yes,Click here to exit site quickly!,1,https://www.theweathernetwork.com/ca
+https://wrrcsa.org/,Desktop,#DF5837,#FFFFFF,wide,top right,button,True,Yes,QUICK ESCAPE,1,https://www.google.com/;https://weather.com/en-GB/?Goto=Redirected
+https://sheltersafe.ca/,Desktop,#993577,#D8ADD0,average,top right,button,True,Yes,HIDE PAGE,1,https://www.theweathernetwork.com/ca
+https://www.ontario.ca/page/get-help-if-you-are-experiencing-violence,Desktop,#0066CC,#FFFFFF,average,bottom right,button,True,Yes,Exit this page,1,https://www.theweathernetwork.com/ca
+https://www.hope247.ca/,Desktop,#62C1C6,#FFFFFF,wide,top left,button,False,Yes,SAFE EXIT,1,https://www.google.ca/
+https://www.sadvtreatmentcentres.ca/,Desktop,#9903DF,#683AB7,average,top right,button,False,Yes,LEAVE PAGE,1,https://www.google.com/
+https://www.waypointswb.ca/,Desktop,#DD3333,#FFFFFF,average,bottom left,button,True,Yes,QUICK EXIT,1,https://www.google.ca/
+https://pwcprograms.com/,Desktop,#889600,#377EC2,average,top right,button,True,Yes,Escape,1,https://weather.com/en-CA/weather/today/l/0c6d024a638d6cf45da97ec87c4b087af63c7419a3eb1399a8d05038544143f9
+https://rapecrisis.org.uk/,Desktop,#FD7E66,#FFFFFF,average,top right,button,True,Yes,Leave this site,1,https://www.google.co.uk/
+https://cambridgerapecrisis.org.uk/,Desktop,#6CB788,#FFFFFF,average,top right,button,True,Yes,Quickly leave this site,1,https://www.bbc.co.uk/news
+https://cisters.org.uk/,Desktop,#FFB735,#FFFFFF,average,top right,button,True,Yes,HIDE SITE,1,https://www.google.co.uk/
+https://www.magdalenegroup.org/,Desktop,#FCBF00,#404040,average,right,button,True,Yes,QUICK EXIT,1,https://www.google.com/;https://weather.com/en-GB/?Goto=Redirected
+http://www.rapecrisisscotland.org.uk/,Desktop,#FC8073,#4F3856,wide,top left,button,True,Yes,Click here or press Escape to leave this site now,1,https://www.bbc.co.uk/news
+https://www.freeva.org.uk/,Desktop,#DD3333,#FFFFFF,average,bottom right,button,True,Yes,HIDE WEBSITE,1,https://www.google.co.uk/
+https://www.glasgowclyderapecrisis.org.uk/,Desktop,#C10F1D,#FFFFFF,wide,top right,button,True,Yes,Click here or press the Escape key to leave this site now,1,https://www.bbc.co.uk/news
+https://lifecentre.uk.com/,Desktop,#7BC0C1,#FFFFFF,average,top right,button,True,Yes,Close the site,1,https://www.google.com/
+https://www.stopitnow.org.uk/,Desktop,#E10818,#FFFFFF,long,left,button,True,Yes,Click to escape,1,https://www.google.co.uk/
+https://dsahelpline.org/,Desktop,#0D9C0D,#FFFFFF,average,bottom right,button,True,Yes,Exit website,1,https://www.bbc.co.uk/news/northern_ireland
+https://www.rasasc.org.uk/,Desktop,#71CF0C,#FFFFFF,wide,top,banner,True,Yes,LEAVE THIS SITE,1,https://www.google.com/
+https://www.rasasc.org/,Desktop,#E6453B,#FFFFFF,average,bottom right,button,True,Yes,Quickly leave this site,1,https://www.google.com/
+https://rsvporg.co.uk/,Desktop,#5B419A,#FFFFFF,average,top right,button,True,Yes,Get me out of here,1,https://www.google.co.uk/
+https://safeline.org.uk/,Desktop,#72BC61,#FFFFFF,wide,bottom,banner,True,Yes,Leave Quickly,1,https://www.google.co.uk/;https://www.bbc.co.uk/weather
+https://www.sailderbyshire.org.uk/,Desktop,#A707B2,#A707B2,average,top right,button,True,Yes,HIDE PAGE,1,https://www.google.co.uk/
+https://www.sarsas.org.uk/,Desktop,#00ADB0,#FFFFFF,average,right,button,True,Yes,Quick Exit,1,https://www.google.com/;https://www.google.com/
+https://supportafterrapeleeds.org.uk/,Desktop,#903B95,#FFFFFF,average,right,button,True,Yes,EXIT SITE,1,https://www.google.co.uk/
+https://www.survivorsuk.org/,Desktop,#C6035A,#E8EBE4,large,right,text,True,Yes,LEAVE WEBSITE,1,https://www.google.com/
+https://www.suzylamplugh.org/,Desktop,#173889,#FFFFFF,average,right,button,True,Yes,Quick exit,1,https://www.bbc.co.uk/
+https://www.protectionagainststalking.org/,Desktop,#DD3333,#FFFFFF,average,right,button,True,Yes,HIDE THIS PAGE,1,https://www.google.co.uk/
+https://www.thesurvivorstrust.org/,Desktop,#E87415,#FFFFFF,average,bottom right,button,True,Cookie Notice,Quick Exit,1,https://www.google.co.uk/search?q=weather
+http://trusthousereading.org/,Desktop,#F94B0F,#FFFFFF,average,right,button,True,Yes,QUICK HIDE SITE,1,https://www.google.co.uk/
+https://www.uava.org.uk/,Desktop,,#FFFFFF,average,top,button,False,Yes,QUICK EXIT,1,https://www.bbc.co.uk/news
+https://malesurvivor.co.uk/about-us,Desktop,#F15F22,#1B1F3B,average,top right,button,True,Yes,LEAVE SITE,1,https://www.google.co.uk/
+https://gov.wales/live-fear-free,Desktop,#AA1111,#FFFFFF,average,bottom right,button,True,Yes,Exit site,1,https://www.bbc.co.uk/;https://www.bbc.co.uk/
+https://www.imkaan.org.uk/,Desktop,#FFFFFF,#000000,average,top right,button,True,Yes,EXIT SITE,1,https://www.google.com/
+http://www.newpathways.org.uk/,Desktop,#FFFF00,#FFFFFF,long,bottom right,button,True,Yes,Leave Site,1,https://www.google.com/;https://www.bbc.co.uk/
+https://hertsrapecrisis.org.uk/,Desktop,#592B62,#CDB7DD,average,bottom right,button,True,Yes,Click to leave this page quickly,1,https://www.bbc.co.uk/;https://www.bbc.co.uk/
+https://www.forthvalleyrapecrisis.org.uk/,Desktop,#F79362,#FFFFFF,wide,top right,button,True,Yes,Click here or press the Escape key to leave this site now,1,https://www.bbc.co.uk/news
+https://www.lincolnshirerapecrisis.org.uk/,Desktop,#7C7FA5,#FFFFFF,text,top right,text,False,Yes,Hide Page,1,https://www.google.com/
+https://www.rapecrisisscotland.org.uk/,Desktop,#FC8073,#4F3856,wide,top left,button,True,Yes,Click here or press Escape to leave this site now,1,https://www.bbc.co.uk/news
+https://www.rcne.com/,Desktop,#CC2E2E,#FFFFFF,wide,top right,button,True,Yes,Click here or press the Escape key to leave this site now,1,https://www.bbc.co.uk/news
+https://www.sv2.org.uk/,Desktop,#FFFFFF,#7C479C,text,top right,text,False,Yes,Quick exit!,1,https://www.google.com/
+https://www.rasamerseyside.org/,Desktop,#8A3E8A,#FFFFFF,average,top right,button,True,Yes,Quick Exit,1,https://www.bbc.co.uk/news
+https://blueskycentre.org.uk/,Desktop,#0095AC,#FFFFFF,average,top,button,True,Yes,Exit this site,1,https://www.google.co.uk/
+https://www.birchalltrust.org.uk/,Desktop,#FBBC16,#8239EC,average,top right,button,True,Yes,Exit Site,1,https://www.google.co.uk/
+https://www.theharbourcentre.co.uk/,Desktop,#252525,#FFFFFF,average,right,button,True,Yes,Hide this site,1,https://www.google.co.uk/
+https://www.the-shores.org.uk/,Desktop,#F9B333,#FFFFFF,average,top,button,True,Yes,Exit this site,1,https://www.google.co.uk/
+https://www.splitz.org/,Desktop,#FFFFFF,#FF66D9,average,top right,button,False,Yes,Cover your tracks,1,https://www.argos.co.uk/
+https://www.savana.org.uk/,Desktop,#F0AD4E,#F1F1F1,average,top,button,True,Yes,Leave this site,1,https://www.google.co.uk/
+https://www.starsdorset.org/,Desktop,#70C38C,#FFFFFF,average,right,button,True,Yes,EXIT SITE,1,https://www.bbc.co.uk/news
+https://theyoutrust.org.uk/,Desktop,#FFFFFF,#FFFFFF,average,right,button,True,Yes,ESCAPE SITE,1,https://www.google.co.uk/;https://www.bbc.co.uk/weather
+https://www.axiscounselling.org.uk/,Desktop,#6C4796,#FFFFFF,average,right,button,True,Yes,HIDE THIS PAGE,1,https://www.google.com/
+https://www.saturncentre.org/,Desktop,#484848,#FFFFFF,wide,content,button,False,No,Click here to leave this website,1,https://www.google.co.uk/
+https://www.bsarcs.org.uk/,Desktop,#FFFFFF,#FFFFFF,average,bottom right,button,True,Yes,Hide site,1,https://www.google.co.uk/
+https://nottssvss.org.uk/,Desktop,#3D225E,#FFFFFF,average,right,button,True,Yes,QUICK EXIT,1,https://www.google.co.uk/
+https://steppingstonesnorthwales.co.uk/,Desktop,#FAC855,#F4F3ED,average,right,button,True,Yes,EXIT,1,https://www.bbc.co.uk/
+https://www.sunderlandcounselling.org.uk/,Desktop,#F40B0B,#FFFFFF,wide,bottom left,button,True,Yes,Quick Website Safety Exit,1,https://www.google.com/;https://www.google.com/
+https://survivorsintransition.co.uk/,Desktop,#8E4583,#FFFFFF,average,top right,button,False,Yes,View This Site Discreetly,1,https://www.google.co.uk/search?q=bbc+news;https://www.bbc.co.uk/news
+https://www.survivorsmanchester.org.uk/,Desktop,#000000,#FFFFFF,average,top right,button,True,Yes,Leave Site,1,https://www.google.co.uk/
+https://survivorswestyorkshire.org.uk/,Desktop,#293D91,#FFFFFF,average,right,button,True,Yes,LEAVE!,1,https://www.google.co.uk/
+https://www.breakthesilence.org.uk/,Desktop,#3C3C6E,#FFFFFF,text,top,text,True,Yes,Leave This Website,1,https://www.google.co.uk/
+https://www.firstlight.org.uk/,Desktop,#FECA05,#FFFFFF,average,top right,button,False,Yes,EXIT SITE,1,https://www.bbc.co.uk/news
+https://firststepleicester.org.uk/,Desktop,#6C3AD0,#FFFFFF,average,bottom right,button,True,Yes,Safety Exit,1,https://www.google.com/;https://www.google.com/
+https://www.thehavens.org.uk/,Desktop,#215191,#EEEEEE,average,top right,button,False,Yes,Leave website,1,https://www.google.com/
+https://niaendingviolence.org.uk/,Desktop,#5E2775,#FFFFFF,text,top right,text,False,Cookie Notice,Escape website,1,https://www.google.co.uk/
+https://survivorsgateway.london/,Desktop,#286168,#FEFEFE,average,top right,button,False,Yes,LEAVE SITE,1,https://www.google.co.uk/
+https://www.safetynetuk.org/,Desktop,#FF914D,#FFFFFF,average,top right,button,True,Yes,Exit site,1,https://www.bbc.co.uk/news
+https://www.wgn.org.uk/,Desktop,#FF6251,#F2F2F2,average,right,button,True,Yes,EXIT SITE,1,https://www.google.co.uk/
+https://www.drcc.ie/,Desktop,#FBEB71,#C9DDFF,average,top right,button,True,Yes,Exit Site,1,https://www.her.ie/;https://www.google.com/
+https://www.sexualviolence.ie/,Desktop,#FFFFFF,#12110F,text,top left,text,False,Yes,hide this site,1,https://www.rte.ie/
+https://galwayrcc.ie/,Desktop,#D3DD6E,#244051,text,top right,text,False,Yes,Exit Site,1,https://www.google.ie/
+https://www.womensaidni.org/,Desktop,#743D90,#FFFFFF,average,right,button,True,Yes,Exit Site,1,https://www.google.com/
+https://trcc.ie/,Desktop,#800080,#3399CC,small,top right,button,True,Yes,HIDE THIS PAGE,1,https://www.google.com/
+https://www.donegalrapecrisis.ie/,Desktop,#FA0B6C,#FFFFFF,wide,top right,button,False,Yes,Escape this site now,1,https://www.rte.ie/news/
+https://www.krsac.com/,Desktop,#197CC1,#85B45C,wide,top right,banner,False,Yes,HIDE THIS SITE,1,https://www.google.ie/
+http://kasa.ie/,Desktop,#FFC145,#45BCB6,average,top right,button,False,Yes,LEAVE WEBSITE,1,https://www.google.ie/
+https://rcne.ie/,Desktop,#F17336,#FFFFFF,text,top,text,False,Yes,Exit Site,1,https://www.google.com/
+https://www.wellingtonhelp.org.nz/,Desktop,#808080,#FFFFFF,wide,top,banner,True,Yes,LEAVE THIS SITE,1,https://www.stuff.co.nz/
+https://www.helpauckland.org.nz/,Desktop,Transparent,#527195,average,top right,button,False,No,CLOSE THIS WEBSITE,1,https://www.nzherald.co.nz/
+https://fullstop.org.au/,Desktop,#FA641F,#FFFFFF,average,top right,button,True,Yes,QUICK EXIT,1,https://www.google.com/;https://www.nine.com.au/
+https://womenssafetyservices.com.au/,Desktop,#2F0455,#A4C99E,average,top right,button,True,Yes,QUICK EXIT,1,https://www.google.com.au/;http://www.bom.gov.au/sa/?ref=hdr
+https://www.safeathome.tas.gov.au/,Desktop,#D50032,#FFFFFF,average,top,button,False,Yes,Quick exit,1,https://www.google.com/
+https://www.gcasa.org.au/,Desktop,#F15B40,#FFFFFF,average,top right,image,True,Yes,,1,https://www.google.com/;https://weather.com/en-GB/?Goto=Redirected
+https://msau-mdvs.org.au/,Desktop,#DE3A28,#755FA8,average,bottom left,button,True,Yes,Quick Escape,1,https://www.weather.com.au/;https://www.google.com.au/
+https://www.projectrespect.org.au/,Desktop,#D41116,#FFFFFF,average,top right,button,True,Yes,Quick Exit,1,https://www.google.com/;http://www.bom.gov.au/
+https://www.secasa.org.au/,Desktop,#00A19A,#FFFFFF,average,top right,button,False,Yes,QUICK EXIT,1,https://www.google.com.au/
+https://www.safvcentre.org.au/,Desktop,#0094A6,#FFFFFF,average,top right,button,True,Yes,QUICK EXIT,1,https://www.google.com.au/
+https://www.nasasv.org.au/,Desktop,#008081,#FFFFFF,average,top right,button,True,Yes,Quick Exit,1,https://www.google.com/
+https://qsan.org.au/,Desktop,#DA0101,#FFFFFF,average,bottom right,button,True,Yes,QUICK EXIT,1,https://www.abc.net.au/news/;https://www.google.com/
+https://bravehearts.org.au/,Desktop,#27255F,#FFFFFF,average,top right,button,True,Yes,Quick Exit,1,https://en.wikipedia.org/wiki/Main_Page
+https://brissc.org.au/,Desktop,#000000,#FFFFFF,average,bottom right,button,True,Yes,Quick Exit,1,https://www.google.com/;https://www.google.com/
+https://wwild.org.au/,Desktop,#FFFFFF,#DCC8E6,average,bottom right,button,True,Yes,Safety Exit,1,https://www.google.com/;https://www.google.com/
+https://www.d2l.org/,Desktop,#F15839,#FFFFFF,average,top,button,True,Yes,Safety Exit,1,https://www.d2l.org/;https://www.google.com/
+https://www.nsvrc.org/,Desktop,#CE0000,#F1F2F2,average,top right,button,False,Yes,Escape,1,https://www.google.com/;https://www.google.com/
+https://sarcoregon.org/,Desktop,#75A0A7,#FFFFFF,average,bottom right,button,True,Yes,Safety Exit,1,https://www.google.com/;https://www.google.com/
+https://www.iowacasa.org/,Desktop,#ED594C,#FFFFFF,average,top right,button,True,Yes,Quick Escape,1,https://eu.desmoinesregister.com/
+https://www.gnesa.org/,Desktop,#FF0000,#FFFFFF,average,top right,button,False,Yes,Escape Site,1,https://www.google.com/;https://consent.yahoo.com/v2/collectConsent?sessionId=3_cc-session_f3d3ee81-5e41-483c-a3dc-1402735b9127
+https://www.rcasa.org/,Desktop,#FFFFFF,#41BAAE,text,top,text,False,Yes,Escape,1,https://www.google.com/
+https://mncasa.org/,Desktop,#FFC73C,#FFFFFF,wide,bottom,banner,True,Yes,Exit Site,1,https://www.google.com/;https://weather.com/en-GB/?Goto=Redirected
+https://endrapeoncampus.org/,Desktop,#E15D5E,#FFFFFF,average,right,button,True,Yes,SAFE EXIT,1,https://www.google.com/
+https://svnb.ca/en/,Desktop,#F1686E,#FFFFFF,average,top right,button,True,Yes,QUICK ESCAPE,1,https://www.google.com/
+https://endsexualviolence.com/,Desktop,#DAADAB,#FFFFFF,average,top right,button,False,Yes,QUICK ESCAPE,1,https://www.google.com/
+https://avaloncentre.ca/,Desktop,#9264AB,#E4DAE8,text,top left,text,False,Yes,QUICK ESCAPE,1,https://www.google.ca/
+https://rebatir.ca/?lang=en,Desktop,#FFFFFF,#FFFFFF,average,bottom right,image,True,Yes,,1,https://www.lepanierbleu.ca/produits
+https://www.sesacnb.com/,Desktop,#FFFFFF,#FFFFFF,average,top right,button,False,Yes,Quick exit / Sortie rapide,1,https://www.sesacnb.com/;https://www.theweathernetwork.com/ca
+https://arc-c.ca/,Desktop,#443166,#FFFFFF,average,top right,button,False,Yes,ESCAPE THIS SITE,1,https://www.google.com/
+https://drcc.ca/,Desktop,#0071B0,#C8E9F1,average,bottom,button,True,Yes,Leave site now,1,https://www.theweathernetwork.com/ca
+https://orcc.net/,Desktop,#10B47D,#FFFFFF,average,bottom right,button,True,Yes,Safe Exit,1,https://www.cbc.ca/news
+https://sacbrant.ca/,Desktop,#5EBB5E,#553D77,average,top right,button,True,Yes,Escape!,1,https://www.google.com/
+https://www.niagarasexualassaultcentre.com/,Desktop,#528C9B,#FFFFFF,wide,top,banner,True,Yes,HIDE THIS WEBSITE,1,https://www.google.ca/
+https://thedragonflycentre.com/,Desktop,#C10000,#FFFFFF,average,bottom left,button,True,Yes,Quick Exit,1,https://www.google.com/;https://www.google.com/
+https://www.lgbt.foundation/,Desktop,#35495E,#FFFFFF,average,bottom right,button,True,Yes,LEAVE SITE QUICKLY,1,https://www.bbc.co.uk/
+https://thekitetrust.org.uk/,Desktop,#6A5A81,#FFFFFF,average,bottom right,button,True,Yes,Safety Exit,1,https://www.google.com/;https://www.bbc.co.uk/bitesize
+https://genderedintelligence.co.uk/,Desktop,#FFFFFF,#9F2F80,average,top right,button,True,Yes,Get me out of here,1,https://www.bbc.co.uk/news
+https://www.akt.org.uk/,Desktop,#750087,#FFFFFF,average,bottom right,button,True,Cookie Notice,exit page,1,https://www.bbc.co.uk/weather
+https://mermaidsuk.org.uk/#,Desktop,#FF7070,#FFFFFF,average,bottom right,image,True,Yes,,1,https://en.wikipedia.org/wiki/Main_Page
+https://stonewallhousing.org/,Desktop,#A11D1F,#FFFFFF,average,right,button,True,Yes,EXIT,1,https://www.google.com/
+https://mindout.org.uk/,Desktop,#F04E98,#FFFFFF,average,bottom left,button,True,Yes,Leave Website Quickly,1,https://www.google.com/;about:blank
+https://cara-friend.org.uk/,Desktop,#222243,#FFFFFF,small,right,button,True,Yes,Quick Close,1,https://www.google.co.uk/
+https://www.intercomtrust.org.uk/,Desktop,#9DFF9D,#FFFFFF,small,top right,button,False,Yes,EXIT,1,https://www.bbc.co.uk/
+https://www.spaceyouthproject.co.uk/,Desktop,#9D3BA6,#2E8778,average,top right,button,True,Yes,EXIT,1,https://www.bbc.co.uk/
+https://www.rainbow-project.org/,Desktop,#CF2791,#FFFFFF,average,bottom right,button,True,Yes,QUICK EXIT,1,https://www.google.co.uk/
+https://thebeyouproject.co.uk/,Desktop,#782281,#FFFFFF,average,top right,button,True,Yes,Quick Exit,1,https://www.google.co.uk/
+https://lgbtbucks.org/,Desktop,#C9090C,#FFFFFF,average,top right,button,True,Yes,ESCAPE WEBSITE,1,https://www.google.co.uk/;https://www.google.co.uk/
+https://www.equality-network.org/,Desktop,#F8A74B,#FFFFFF,average,right,button,True,Yes,Hide me!,1,https://www.google.co.uk/
+https://pflag.org/,Desktop,#827E73,#FFFFFF,average,top right,button,True,Yes,LEAVE THIS SITE NOW,1,https://www.google.com/
+https://www.belongto.org/,Desktop,#90298E,#FFFFFF,average,top,button,True,Yes,EXIT,1,https://www.google.com/
+https://outhouse.ie/,Desktop,#AB1479,#FFFFFF,average,bottom right,button,True,Yes,Exit,1,https://www.google.com/;https://www.google.com/
+https://man2man.ie/,Desktop,#00494F,#FFFFFF,small,right,button,True,Yes,Emergency Exit,1,https://www.google.ie/
+https://nationalgenderserviceireland.com/,Desktop,#A3A3A3,#FFFFFF,average,bottom left,button,True,Yes,Emergency Exit,1,https://www.google.com/;https://www.google.com/
+https://goshh.ie/,Desktop,#F8F8F8,#FFFFFF,wide,bottom,button,True,Yes,Quick Exit,1,https://www.google.com/;https://www.rte.ie/
+https://www.rainbowdoor.org.au/,Desktop,#FFCA05,#FFFFFF,average,top right,button,True,Yes,QUICK EXIT,1,https://www.google.com.au/?gws_rd=ssl
+https://thorneharbour.org/,Desktop,#FFCB33,#FFFFFF,average,top right,button,True,Yes,Quick Exit,1,http://www.bom.gov.au/
+https://www.rainbowdirectorysa.com.au/,Desktop,#F79393,#FFFFFF,average,top right,image,False,Yes,,1,https://www.google.com/
+https://www.meridianact.org.au/,Desktop,#F71C22,#FFFFFF,average,top right,button,True,Yes,QUICK EXIT,1,http://www.bom.gov.au/act/forecasts/canberra.shtml
+https://www.thetrevorproject.org/,Desktop,SHORTCUT ONLY
+http://www.tnlr.org/en/,Desktop,#007DC3,#FFFFFF,average,top,button,True,Yes,SAFETY EXIT,1,https://www.google.com/;https://weather.com/en-GB/?Goto=Redirected
+https://avp.org/,Desktop,#FEEAD2,#FFFFFF,average,top right,button,False,Yes,EXIT,1,https://weather.com/en-GB/?Goto=Redirected
+https://www.lgbthotline.org/,Desktop,#00FFFF,#FFFFFF,wide,bottom,banner,True,Yes,TO LEAVE PAGE:CLICK HERE FOR QUICK ESCAPE,1,https://www.google.com/
+https://www.calgaryoutlink.ca/,Desktop,#FFFFFF,#212121,text,top,text,True,Yes,Quick Exit,1,https://calgaryherald.com/
+https://mwrc.org.uk/,Desktop,#FFFFFF,#FFFFFF,average,content,image,False,No,LEAVE WEBSITE QUICKLY,1,https://www.google.com/;https://weather.com/en-GB/weather/today/l/d9c3fa2c79668c489b8481d623991bdda4253177a2789d05a13dde82eadac46a
+https://karmanirvana.org.uk/,Desktop,#742624,#FFFFFF,average,bottom right,button,True,Yes,Exit Site,1,https://www.google.co.uk/
+https://ikwro.org.uk/,Desktop,#FFFFFF,#FFFFFF,average,bottom left,button,True,Yes,SAFETY ESCAPE,1,https://www.google.com/;https://www.bbc.co.uk/
+https://lawrs.org.uk/,Desktop,#FF0000,#FFFFFF,average,bottom left,button,True,Yes,EXIT,1,https://www.google.com/;https://weather.com/en-GB/?Goto=Redirected
+https://lawadv.org.uk/,Desktop,#DD3333,#FFFFFF,small,left,button,True,Yes,QUICK EXIT,1,https://www.tesco.com/
+https://www.lbwp.co.uk/,Desktop,#B599D1,#FFFFFF,average,top right,button,False,Yes,Exit to Google,1,https://www.google.co.uk/
+https://www.mwnhelpline.co.uk/,Desktop,#EC2427,#FFFFFF,average,right,button,True,Yes,EMERGENCY EXIT,1,https://www.google.co.uk/
+https://www.forwarduk.org.uk/,Desktop,#FFFFFF,#541C8C,average,top right,button,False,Yes,Escape website,1,https://www.google.com/search?q=recipes&oq=recipes;https://www.google.com/search?q=healthy+recipes&oq=healthy+recipes
+https://www.asianwomencentre.org.uk/,Desktop,#BF2D1A,#FFFFFF,average,right,button,True,Yes,QUICK EXIT,1,https://www.google.com/
+https://amwchr.org.au/,Desktop,#29335A,#FFFFFF,average,bottom right,button,True,Yes,Safety Exit,1,https://www.google.com/;https://www.google.com/
+https://djirra.org.au/,Desktop,#00B551,#FFFFFF,average,top right,button,False,Yes,Quick exit,1,https://www.google.com/
+https://www.emhaws.org.au/,Desktop,#6E649B,#8A649B,average,top right,button,False,Yes,Quick Exit,1,https://www.google.com/
+http://bwahs.com.au/,Desktop,,#FFFFFF,text,top right,text,False,Yes,Quick EXIT,1,https://www.google.com/
+https://www.vacca.org/,Desktop,#D7CE61,#2B2B2B,average,top,button,False,Yes,QUICK EXIT,1,https://www.google.com/
+https://www.iwss.org.au/,Desktop,#BC2585,#FFFFFF,average,bottom right,button,True,Yes,Safety Exit,1,https://www.google.com/;https://www.abc.net.au/
+https://www.ywca.org/,Desktop,#000000,#F2F2F2,text,top right,text,True,Yes,QUICK ESCAPE,1,about:blank;https://weather.com/en-GB/?Goto=Redirected
+https://ujimacommunity.org/,Desktop,#FFFFFF,#FFFFFF,small,top right,button,False,Yes,ESC,1,https://www.washingtonpost.com/
+https://strongheartshelpline.org/,Desktop,#4F3A51,#FFFFFF,small,bottom right,button,True,Yes,EXIT,1,https://www.google.com/;https://weather.com/en-GB/?Goto=Redirected
+https://www.atask.org/site/,Desktop,#FFFFFF,#FFFFFF,average,top right,button,False,Yes,ESCAPE,1,https://weather.com/en-GB/?Goto=Redirected
+https://www.talk4healing.com/,Desktop,#95C5BB,#95C5BB,average,top right,button,False,Yes,Hide This Page,1,https://www.talk4healing.com/;https://www.google.ca/?gws_rd=ssl
+https://www.sfad.org.uk/,Desktop,#008A8A,#FFFFFF,average,right,button,True,Yes,Leave Site,1,https://www.google.co.uk/
+https://dan247.org.uk/,Desktop,#057C80,#FFFFFF,average,right,button,True,Yes,Hide,1,https://www.google.co.uk/
+https://aa.org.nz/,Desktop,#D9E5D6,#F2EFEA,average,top right,button,False,Yes,ESCAPE THIS SITE,1,https://www.google.com/;https://www.metservice.com/
+https://yourroom.health.nsw.gov.au/,Desktop,#58CEC8,#EAEAEA,average,top right,button,True,Yes,EXIT SITE,1,https://www.google.com/
+https://www.jarrahhouse.com.au/,Desktop,#B59439,#39B5AE,average,bottom right,button,True,Yes,Safety Exit,1,https://www.smh.com.au/;https://www.womensweeklyfood.com.au/recipes
+http://mbaddictionhelp.ca/,Desktop,#90C7CA,#FFFFFF,average,content,button,False,No,LEAVE THIS SITE QUICKLY,1,https://www.cbc.ca/news/canada/manitoba
+https://www.aidedrogue.ca/en/,Desktop,#FFFFFF,#293461,text,top right,text,True,Yes,QUICK EXIT,1,https://www.google.com/
+https://aidejeu.ca/en/,Desktop,#FFFFFF,#87BB30,text,top right,text,True,Yes,QUICK EXIT,1,https://www.google.com/
+https://frg.org.uk/,Desktop,#7166AD,#FFFFFF,average,right,button,True,Yes,EXIT,1,https://www.bbc.co.uk/news
+https://fnf.org.uk/,Desktop,#FC8303,#FFFFFF,average,top right,button,False,Yes,Exit Site,1,https://www.google.com/
+https://www.sands.org.uk/,Desktop,#F18D08,#FFFFFF,average,bottom right,button,True,Yes,EXIT SITE,1,https://www.bbc.co.uk/news;https://www.bbc.co.uk/news
+https://www.msichoices.org.uk/,Desktop,#F2CD3A,#283473,wide,top,banner,True,Yes,EXIT SITE,1,http://312tpfk.beta-host.co.uk/?current=1662490043501;https://www.google.co.uk/
+https://www.mariestopes.ie/,Desktop,#F2CD3A,#FFFFFF,large,right,button,True,Yes,HIDE PAGE,1,https://www.google.com/
+https://midwestaccesscoalition.org/,Desktop,#FAFFF2,#FAFFF2,average,bottom left,button,True,Yes,Quick Exit,1,https://www.google.com/search?q=funny%20owls&tbm=isch;https://www.google.com/search?q=cute%20animals&tbm=isch
+https://www.plancpills.org/,Desktop,#FF5E6B,#FFFFFF,average,top right,image,True,Yes,,1,https://www.google.com/;https://weather.com/en-GB/?Goto=Redirected
+https://reprolegaldefensefund.org/,Desktop,#E02020,#F0F0F0,average,top left,button,True,Yes,Quick Exit (ESC),1,https://duckduckgo.com/
+https://dupontclinic.com/,Desktop,#CCCC33,#FFFFFF,average,top left,button,True,Yes,quick exit,1,https://www.google.com/search?q=pretty+orchids&tbm=isch&ved=2ahUKEwjc-oTfoJvuAhXbPCsKHdARDigQ2-cCegQIABAA&oq=pretty+orchids&gs_lcp=CgNpbWcQAzICCABQ8YEBWPGBAWCOigFoAHAAeACAAd0BiAHdAZIBAzItMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=VSIAYJz8Dtv5rAHQo7jAAg;https://www.google.com/search?q=cute%20animals&tbm=isch
+https://abortiononourownterms.org/,Desktop,#FFFFFF,#007E9C,average,top right,button,True,Yes,QUICK EXIT,1,https://www.google.com/;https://weather.com/en-GB/?Goto=Redirected
+https://www.reprolegalhelpline.org/,Desktop,#E02020,#F0F0F0,average,top left,button,True,Yes,Quick Exit (ESC),1,https://duckduckgo.com/
+https://arfwm.org/,Desktop,#EF0834,#FFFFFF,average,top right,button,True,Yes,Quick exit,1,https://weather.com/en-GB/?Goto=Redirected
+https://www.abortionfundofaz.org/,Desktop,#9A3C09,#8E5932,average,top right,button,True,Yes,QUICK EXIT,1,https://www.google.com/search?q=home+decor&rlz=1CABMGD_enUS871US871&oq=home+decor&aqs=chrome..69i57j0l4j69i61j69i60l2.9000j0j4&sourceid=chrome&ie=UTF-8
+https://accessrj.org/,Desktop,#E76F51,#5F0F40,average,bottom right,button,True,Yes,Safety Exit,1,https://www.google.com/;https://www.google.com/
+https://www.chicagoabortionfund.org/,Desktop,#F7B033,#FFFFFF,average,bottom right,button,True,Yes,EXIT,1,https://eu.usatoday.com/
+https://www.ourjustice.net/,Desktop,#741A56,#FFFFFF,wide,top right,banner,True,Yes,Quickly leave this page,1,https://www.washingtonpost.com/
+https://www.susanwicklundfund.org/,Desktop,#642886,#FFFFFF,average,bottom left,button,True,Yes,Safety Exit,1,https://www.google.com/;https://www.google.com/
+https://www.wildwestfund.org/,Desktop,#3AC2D0,#FFFFFF,average,bottom right,button,True,Yes,Safety Exit,1,https://www.google.com/;https://www.google.com/
+https://www.neabortionresources.org/,Desktop,#6F8882,#FFFFFF,text,top right,text,False,Yes,QUICK EXIT,1,https://www.google.com/
+https://www.abortionfundofohio.org/,Desktop,#EF0834,#FFFFFF,average,top right,button,False,Yes,Quick exit (ESC),1,https://www.google.com/
+https://mountainaccessbrigade.org/,Desktop,#CB6015,#4B7A9E,average,top right,button,False,Yes,SAFE EXIT,1,https://weather.com/weather/today/l/USTN0268:1:US
+https://janesdueprocess.org/,Desktop,SHORTCUT ONLY
+https://www.vermontaccess.org/,Desktop,#FFC0CB,#EAEAEE,long,bottom right,button,True,Yes,LEAVE THIS SITE NOW,1,https://www.google.com/search?source=hp&ei=KvhxX77oIqCuytMPnvSayAI&q=weather&oq=weater&gs_lcp=CgZwc3ktYWIQARgAMgkIABAKEEYQgAIyBAgAEAoyCgguEMcBEKMCEAoyBAgAEAoyBAgAEAoyBAgAEAoyBAgAEAoyBAgAEAoyBQgAEJIDMgUIABCSAzoICAAQsQMQgwE6CwguELEDEMcBEKMCOgUIABCxAzoFCC4QsQM6AggAOggILhDHARCjAjoICC4QxwEQrwFQjQRYpwdg1BZoAHAAeACAAUqIAZsDkgEBNpgBAKABAaoBB2d3cy13aXo&sclient=psy-ab;https://weather.com/en-GB/?Goto=Redirected
+https://blueridgeabortionfund.org/,Desktop,#8AD2D1,#FCF3ED,average,bottom left,button,True,Yes,Quick Exit,1,https://www.google.com/;https://www.google.com/
+https://www.actioncanadashr.org/,Desktop,#E26F54,#FFFFFF,average,top right,button,False,Yes,Get Out Quickly,1,https://www.youtube.com/
+https://choiceconnect.ca/,Desktop,#FF0000,#FFFFFF,large,top right,button,True,Yes,LEAVE,1,https://www.google.ca/
+https://ppt.on.ca/,Desktop,#FFFFFF,#000000,average,top right,button,True,Yes,escape,1,https://www.google.com/
+https://www.berrystreet.org.au/,Desktop,#DE3700,#FFFFFF,average,top right,button,True,Yes,Quick exit,1,https://www.google.com/
+https://pafsa.org/,Desktop,#DD3333,#FFFFFF,average,bottom left,button,True,Yes,Exit,1,https://www.google.com/;https://www.google.com/
+https://www.childline.org.uk/,Desktop,#104457,#FFFFFF,average,right,button,True,Yes,HIDE PAGE,1,https://www.google.com/
+https://coramvoice.org.uk/,Desktop,#671E75,#E5E5E5,average,top left,button,True,Yes,Hide page,1,https://www.google.com/
+https://www.meiccymru.org/,Desktop,#984192,#FFFFFF,small,left,button,True,Yes,Hide Page,1,https://www.google.co.uk/
+https://cafs.org.au/,Desktop,#00974A,#FFFFFF,average,right,button,True,Yes,QUICK EXIT,1,https://www.google.com.au/;https://www.google.com.au/
+https://panda.org.au/,Desktop,#FF6A39,#FFFFFF,average,bottom right,button,True,Yes,QUICK EXIT SITE,1,https://www.google.com/
+https://www.stopitnow.org/,Desktop,#9E70EE,#FFFFFF,text,top right,text,False,Yes,Quick Exit,1,https://www.google.com/
+https://kidshelpphone.ca/,Desktop,#EFF4F6,#FFFFFF,average,right,button,True,Yes,Hide Page,1,https://www.google.com/
+https://www.youthline.ca/,Desktop,#B7B7B7,#C9C9C9,average,top right,button,True,Yes,Quick Hide,1,https://www.youthline.ca/#
+http://www.goodsamaritaninn.org.au/,Desktop,#FFFFFF,#CC0066,average,top right,button,True,Yes,Exit site,1,https://www.google.com/
+https://juno.org.au/,Desktop,#00609C,#99D5D6,average,top right,button,False,Yes,QUICK EXIT,1,https://www.google.com/
+https://www.mcauley.org.au/,Desktop,#00A592,#F6F5F4,average,top right,button,False,Yes,QUICK EXIT,1,https://www.google.com.au/
+https://www.wayss.org.au/,Desktop,#FF0606,#FFFFFF,wide,top,banner,True,Yes,CLICK TO EXIT THIS WEBSITE NOW,1,https://www.google.com.au/
+https://askizzy.org.au/,Desktop,#B30000,#FFFFFF,average,top right,button,True,Yes,Quick Exit,1,http://www.bom.gov.au/
+https://www.ruah.org.au/,Desktop,#425563,#F9F9F9,average,bottom right,button,True,Yes,Quick Exit,1,https://www.google.com.au/;https://www.weatherzone.com.au/
+https://www.1800runaway.org/,Desktop,#FFFFFF,#3EB03B,text,top right,text,True,Yes,Exit,1,https://www.google.com/
+https://pathssk.org/,Desktop,#F4C127,#333366,average,top,button,True,Yes,Quick Exit,1,https://www.google.com/
+https://acws.ca/,Desktop,#D06B37,#FFFFFF,average,top right,button,True,Yes,Quick Exit,1,https://www.google.com/search?q=weather
+https://endvaw.ca/,Desktop,#CBDE73,#FFFFFF,average,top right,button,False,Yes,HIDE THIS SITE,1,https://www.google.ca/search?q=weather
+http://thanl.org/,Desktop,#FF795F,#FFFFFF,average,top right,button,True,Yes,Hide This Site,1,https://www.theweathernetwork.com/ca
+https://thans.ca/,Desktop,#FF0000,#FFFFFF,average,top right,button,True,Yes,CLICK TO EXIT NOW,1,https://www.google.com/
+https://maws.mb.ca/,Desktop,#BE202E,#FFFFFF,average,bottom right,button,True,Yes,HIDE SITE,1,https://www.theweathernetwork.com/ca
+https://bcsth.ca/,Desktop,#E71515,#FFFFFF,average,top right,button,False,Yes,EXIT NOW,1,https://www.google.com/
+https://www.oaith.ca/,Desktop,#FFFFFF,#7368AA,average,top,button,True,Yes,LEAVE THIS PAGE,1,https://www.google.ca/
+https://saskatoonintervalhouse.org/,Desktop,#FF0000,#F7F7F7,average,top right,text,False,Yes,HIDE THIS PAGE,1,https://www.google.com/
+https://www.womenstransitionhome.ca/,Desktop,#6BA0B3,#E8E8E8,text,top,text,False,Yes,Safe Exit,1,https://www.theweathernetwork.com/uk
+https://www.nellies.org/,Desktop,#9486A0,#FFFFFF,average,top right,button,True,Yes,ESCAPE,1,https://www.google.com/
+https://www.icash.nhs.uk/,Desktop,#E19400,#6A3589,average,top right,button,True,Yes,Hide Page,1,https://www.google.co.uk/
+https://www.unitysexualhealth.co.uk/,Desktop,#FCC343,#FFFFFF,long,right,button,True,Yes,Get me out of here,1,https://www.google.com/
+https://www.safesexberkshire.nhs.uk/,Desktop,#5A5C61,#FFFFFF,average,top,button,False,Yes,Hide,1,https://www.google.com/
+https://www.contraceptionchoices.org/,Desktop,#FF8300,#032451,average,top right,button,False,Yes,Hide page,1,https://www.contraceptionchoices.org/
+https://shvic.org.au/,Desktop,#FF0000,#FFFFFF,average,top right,button,False,Yes,QUICK EXIT,1,https://www.google.com/
+https://www.1800myoptions.org.au/,Desktop,#EB1C22,#FFFFFF,average,top right,button,True,Yes,QUICK ESCAPE,1,https://news.google.com/topstories?hl=en-GB&gl=GB&ceid=GB:en
+https://www.islandsexualhealth.org/library/,Desktop,#13F1B0,#FFFFFF,small,left,button,True,Yes,QUICK EXIT,1,https://www.cbc.ca/news
+http://birthcontrolsexualhealth.ca/,Desktop,#FFFFFF,#EEEEE9,average,top right,button,False,Yes,Quick Hide,1,https://www.google.ca/
+https://www.healthforteens.co.uk/,Desktop,#DE201B,#202020,average,right,button,False,Yes,GET ME OUT OF HERE,1,https://www.google.com/
+https://www.gatewayhealth.org.au/,Desktop,#7C6D6B,#FFFFFF,small,bottom right,button,True,Yes,QUICK EXIT,1,https://www.google.com.au/;http://www.bom.gov.au/
+https://www.gwhealth.asn.au/,Desktop,#A689BF,#FFFFFF,large,top right,button,True,Yes,EXIT,1,http://www.bom.gov.au/?ref=logo
+https://gch.org.au/,Desktop,#B6479B,#FFFFFF,large,top right,button,True,Yes,Exit,1,https://www.google.com.au/
+https://www.nexusprimaryhealth.org.au/,Desktop,#FFFFFF,#FFFFFF,average,top right,button,True,Yes,Quick exit,1,https://www.nine.com.au/
+https://sunburycobaw.org.au/,Desktop,#FF251B,#0099A8,average,top right,button,True,Yes,QUICK EXIT,1,https://www.google.com.au/
+https://teenhealthsource.com/,Desktop,#A1B53A,#BA1D82,average,top right,button,True,Yes,QUICK HIDE,1,https://www.youtube.com/
+https://www.disabilitygateway.gov.au/,Desktop,#DB334C,#414042,average,top right,button,False,Yes,Quick exit,1,http://www.bom.gov.au/
+https://deafdawn.org/,Desktop,#50B0E0,#FFFFFF,wide,top,banner,False,Yes,QUICK ESCAPE! Click here to quickly exit this website,1,https://www.google.com/
+https://www.wearehourglass.org/,Desktop,#CC0000,#FFFFFF,average,bottom right,button,True,Yes,Exit the website,1,https://www.google.com/
+https://seniorsrights.org.au/,Desktop,#613E98,#FFFFFF,average,top right,button,True,Yes,Quick Exit,1,https://www.google.com/
+https://opan.org.au/,Desktop,#C42F67,#FFFFFF,small,bottom right,image,True,Yes,,1,https://www.google.com.au/
+https://www.ncall.us/,Desktop,#C0CDD9,#FFFFFF,wide,bottom right,button,True,Yes,Safe exit,1,https://www.google.com/
+https://eapon.ca/,Desktop,#4E2A76,#FFFFFF,average,top right,button,True,Yes,Safety Exit,1,https://www.google.com/;https://www.google.com/
+https://www.tuuohomai.org.nz/,Desktop,#2770CF,#FFFFFF,small,right,button,True,Yes,Leave,1,https://www.nzherald.co.nz/eatwell/
+https://courtnetwork.com.au/,Desktop,#E7168C,#FFFFFF,average,top right,button,False,Yes,Quick Exit,1,https://www.google.com.au/
+https://www.efrytoronto.org/,Desktop,#80DFF2,#FFFFFF,average,right,button,True,Yes,Safe Exit,1,https://www.google.ca/
+https://www.victimsupport.org.uk/,Desktop,#ED471E,#FFFFFF,wide,top,button,True,Yes,Leave website,1,https://www.google.com/
+https://www.lighthousevictimcare.org/,Desktop,#7E8083,#FFFFFF,average,top right,button,True,Yes,Leave Site,1,https://www.google.co.uk/
+https://www.crimevictimshelpline.ie/,Desktop,#D13051,#FFFFFF,average,top right,button,False,Yes,Quick Exit,1,https://www.rte.ie/
+https://www.victimsupportni.com/,Desktop,#C4B3AF,#FFFFFF,text,top,text,False,Yes,hide site,1,https://www.google.co.uk/
+https://victimsinfo.govt.nz/,Desktop,#32778D,#F3ECE4,average,content,button,False,No,Quick exit,1,https://www.stuff.co.nz/
+https://www.victimsofcrime.vic.gov.au/,Desktop,#D50032,#D8E9F8,average,top right,button,False,Yes,Quick exit,1,https://www.google.com/search?q=google+weather;https://www.google.com/search?q=google+weather
+https://www.victimsupport.act.gov.au/home,Desktop,#DF7C72,#B6E3E3,small,top right,button,True,Yes,Quick Exit,1,https://www.google.com.au/
+https://www.victimsservices.justice.nsw.gov.au/,Desktop,#B81237,#FFFFFF,average,top right,button,True,Yes,Quick Exit,1,https://www.google.com/
+https://www.justice.tas.gov.au/victims,Desktop,#B60000,#000000,average,top right,button,True,Yes,Quick Exit,1,http://www.bom.gov.au/;https://www.google.com/
+https://victimconnect.org/,Desktop,#CB4E0B,#FFFFFF,average,top,button,True,Yes,Quick Exit,1,https://www.google.com/
+https://victimsofcrime.org/,Desktop,#F36E25,#FFFFFF,average,bottom right,button,True,Yes,Safety Exit,1,https://www.google.com/;https://weather.com/en-GB/?Goto=Redirected
+https://www.trynova.org/,Desktop,#CC0033,#FFFFFF,average,bottom left,button,True,Yes,Quick Exit,1,https://weather.com/en-GB/?Goto=Redirected;https://www.accuweather.com/;https://www.google.com/search?q=local%20weather%20forecast
+https://victimassistanceprogram.org/,Desktop,#FFFFFF,#FFFFFF,average,top right,button,False,Yes,EXIT SITE,1,https://victimassistanceprogram.org/;https://weather.com/weather/tenday/l/a2a9821d3fad5db9489ac8a82a39d84c9d6bc34927b2dd4e6d5e4fd4ed6a525a
+https://victims.ca.gov/,Desktop,#C34346,#FFFFFF,average,bottom left,button,True,Yes,Quick Escape,1,https://www.google.com/
+https://www.victimservicescenter.org/,Desktop,#66BAC1,#E8E6E6,average,top,button,False,Yes,EXIT SITE,1,https://www.google.com/
+https://www.nc-van.org/,Desktop,#CFC359,#FFFFFF,average,top,button,False,Yes,ESCAPE,1,https://www.google.com/
+https://www.crimevictimservices.org/,Desktop,#000000,#FFFFFF,text,top right,text,True,Yes,LEAVE NOW,1,https://weather.com/en-GB/?Goto=Redirected
+https://www.victimservicecenter.org/,Desktop,#CE0F00,#EDEDED,average,top right,button,True,Yes,EXIT SALIDA,1,https://www.google.com/
+https://crimesurvivors.org/,Desktop,#3586B9,#FFFFFF,average,top,banner,False,Yes,CLICK HERE IF YOU NEED TO LEAVE THIS SITE QUICKLY,1,https://www.google.com/search?hl=en&q=chocolate%2Bchip%2Bcookies&btnG=Google%2BSearch
+https://vacjc.com/,Desktop,#00A0CF,#FFFFFF,average,bottom right,button,True,Yes,QUICK EXIT,1,https://www.newzjunky.com/
+https://novabucks.org/,Desktop,#D2232A,#FFFFFF,small,top right,button,False,Yes,EXIT SITE,1,https://www.google.com/;https://weather.com/en-GB/?Goto=Redirected
+https://cavac.qc.ca/en/,Desktop,#BA1414,#FFFFFF,long,right,button,True,Yes,LEAVE QUICKLY,1,https://www.google.ca/
+https://crcvc.ca/,Desktop,#165C7D,#FFFFFF,average,right,button,True,Yes,Safe Exit,1,https://www.google.com/
+https://www.alberta.ca/help-for-victims-of-crime.aspx,Desktop,#0070C4,#FFFFFF,average,bottom right,button,True,Yes,Quick Escape,1,https://www.google.ca/;https://www.weather.gc.ca/canada_e.html
+https://www.victimsupport.ca/,Desktop,#EAC633,#A7B1AD,average,content,button,False,Yes,QUICK ESCAPE,1,https://www.theweathernetwork.com/ca
+https://domesticpeace.ca/,Desktop,#9BAB81,#FFFFFF,wide,bottom,banner,True,Yes,EMERGENCY ESCAPE,1,https://www.google.com/;https://weather.gc.ca/forecast/canada/index_e.html?id=BC
+https://www.victimservicesniagara.on.ca/,Desktop,#E5DBAA,#242158,average,top right,button,False,Yes,HIDE THIS SITE,1,https://www.google.com/
+https://www.ns-vs.com/,Desktop,#299BD4,#FFFFFF,average,top right,button,False,Yes,ESCAPE THIS SITE,1,https://www.google.ca/
+https://vspeel.org/,Desktop,#FFFFFF,#075299,average,top right,button,True,Yes,ESCAPE THIS PAGE,1,https://www.google.ca/
+https://vsmiddlesex.org/,Desktop,#00626F,#FFFFFF,average,top right,button,True,Yes,EXIT NOW,1,https://www.google.ca/
+http://www.tbayvictimservices.ca/,Desktop,#000000,#953075,wide,top right,button,False,Yes,ESCAPE THIS PAGE,1,https://www.google.com/
+https://www.victimservicesdurham.ca/home,Desktop,#510388,#FFFFFF,average,bottom right,button,True,Yes,LEAVE NOW,1,https://www.google.com/
+https://www.victimservices-york.org/,Desktop,#FFFFFF,#212121,text,top right,text,False,Yes,Escape This Page,1,https://www.google.ca/
+https://www.cdvs.ca/,Desktop,#862F39,#F1F1F1,average,top left,button,True,Yes,QUICK ESCAPE,1,https://www.google.ca/search?q=how+to+make+good+cookies&oq=how+to+make+good+cookies&aqs=chrome..69i57.6514j0j1&sourceid=chrome&ie=UTF-8
+https://www.vslg.ca/,Desktop,#FFFFFF,#A98F80,text,top right,text,False,Yes,ESCAPE THIS SITE,1,https://www.google.com/
+https://victimserviceskingston.ca/,Desktop,#A79561,#FFFFFF,average,bottom right,button,True,Yes,ESCAPE THIS SITE,1,https://www.thewhig.com/category/news/local-news/
+https://www.police.uk/,Desktop,#B01A0D,#FFFFFF,average,right,button,True,Yes,Leave this site,1,https://www.google.co.uk/
+https://www.nationalcrimeagency.gov.uk/,Desktop,#CC0000,#FFFFFF,small,top right,button,True,Yes,Quick exit,1,https://www.google.co.uk/
+https://www.devon-cornwall.police.uk/,Desktop,#D81E00,#FFFFFF,average,right,button,True,Yes,Hide site,1,https://www.google.com/
+https://www.dorset.police.uk/,Desktop,#D81E00,#FFFFFF,average,right,button,True,Yes,Hide site,1,https://www.google.com/
+https://www.westyorkshire.police.uk/,Desktop,#005A9C,#FFFFFF,average,right,button,True,Yes,Leave page quickly,1,https://www.bbc.co.uk/
+https://beta.northumbria.police.uk/,Desktop,#EA6A24,#FFFFFF,average,top right,button,True,Yes,HIDE PAGE,1,https://www.bbc.co.uk/
+https://www.cumbria.police.uk/,Desktop,#D12D1E,#FFFFFF,average,right,button,True,Yes,Leave this site,1,https://www.google.com/;https://www.google.com/
+https://www.cleveland.police.uk/,Desktop,#B01A0D,#FFFFFF,average,right,button,True,Yes,Leave this site,1,https://www.google.co.uk/
+https://www.northyorkshire.police.uk/,Desktop,#B01A0D,#FFFFFF,average,right,button,True,Yes,Leave this site,1,https://www.google.co.uk/
+https://www.gwent.police.uk/,Desktop,#B01A0D,#FFFFFF,average,right,button,True,Yes,Leave this site,1,https://www.google.co.uk/
+https://www.derbyshire.police.uk/,Desktop,#B01A0D,#FFFFFF,average,right,button,True,Yes,Leave this site,1,https://www.google.co.uk/
+https://www.cambs.police.uk/,Desktop,#B01A0D,#FFFFFF,average,right,button,True,Yes,Leave this site,1,https://www.google.co.uk/
+https://www.kent.police.uk/,Desktop,#B01A0D,#FFFFFF,average,right,button,True,Yes,Leave this site,1,https://www.google.co.uk/
+https://www.northants.police.uk/,Desktop,#B01A0D,#FFFFFF,average,right,button,True,Yes,Leave this site,1,https://www.google.co.uk/
+https://www.police.act.gov.au/,Desktop,#C75B12,#FFFFFF,average,right,button,True,Yes,Quick Exit,1,https://www.google.com/;https://www.google.com/
+https://www.police.vic.gov.au/,Desktop,#FFFFFF,#E1E7F0,average,top right,button,True,Yes,Quick exit,1,https://www.google.com/;https://www.google.com/
+https://www.police.tas.gov.au/,Desktop,#DB0808,#002F5D,average,top right,button,True,Yes,Quick Exit,1,http://www.bom.gov.au/;https://www.google.com/
+https://www.peelpolice.ca/en/index.aspx,Desktop,#C4314B,#FFFFFF,average,bottom right,button,True,Yes,Quick Escape,1,https://www.google.ca/;https://www.weather.gc.ca/canada_e.html
+https://www.fclc.org.au/,Desktop,#002846,#FFFFFF,average,top right,button,False,Yes,QUICK EXIT,1,https://www.google.com.au/
+https://www.womenslegal.org.au/,Desktop,#FFFFFF,#FFFFFF,average,top right,button,True,Yes,QUICK EXIT,1,https://www.google.com/
+https://www.legalmomentum.org/,Desktop,#000000,#F5F5F5,small,top right,button,True,Yes,QUICK EXIT,1,https://www.google.com/search?q=walmart+near+me
+https://womenslegalcentre.ca/,Desktop,#000000,#FFFFFF,average,top right,button,True,Yes,QUICK EXIT,1,https://www.google.ca/
+https://www.wire.org.au/,Desktop,#FFFFFF,#2D2A2B,text,top left,text,True,Yes,Quick Exit (Esc),1,https://www.google.com/
+http://www.berkshirewomensaid.org.uk/,Mobile,#E3007A,#FFFFFF,average,top left,button,True,Yes,LEAVE THIS SITE NOW,1,https://www.bbc.co.uk/sport
+https://fifewomensaid.org.uk/,Mobile,#FFFFFF,#EC0741,wide,top,text,True,Yes,Leave the site,1,https://www.bbc.co.uk/
+https://www.jwa.org.uk/,Mobile,#CA27B1,#FFFFFF,average,bottom left,button,True,Cookie Notice,EXIT SITE,1,https://www.bbc.co.uk/weather
+https://junowomensaid.org.uk/,Mobile,#7DB559,#FFFFFF,average,top right,button,True,Yes,Leave website,1,https://www.radiotimes.com/tv/tv-listings/
+https://www.welshwomensaid.org.uk/,Mobile,#000000,#FFFFFF,average,top,button,True,Yes,EXIT,1,https://www.bbc.co.uk/
+https://www.domesticabusehelpline.co.uk/,Mobile,#200D81,#FFFFFF,average,content,button,True,Yes,LEAVE THIS SITE NOW,1,https://www.google.com/?gws_rd=ssl
+https://www.hertsdomesticabusehelpline.org/,Mobile,#8C56AE,#FFFFFF,average,side menu,menu item,True,Yes,EXIT SITE,2,https://www.google.co.uk/?gws_rd=ssl
+https://bswaid.org/,Mobile,#FFFFFF,#F1EDF4,average,top right,button,False,Yes,Exit website,1,https://www.google.co.uk/
+https://www.refuge.org.uk/,Mobile,#76BEBA,#FFFFFF,wide,bottom,banner,True,Cookie Notice,Quick exit,1,https://www.google.com/;https://www.google.com/
+https://www.nationaldahelpline.org.uk/,Mobile,#5166EF,#FFFFFF,wide,bottom,button,True,Yes,Quick exit,1,http://312tpfk.beta-host.co.uk/?current=1662501891440;https://www.google.co.uk/
+https://galop.org.uk/,Mobile,#E00303,#FFFFFF,wide,bottom,button,True,Cookie Notice,EXIT SITE,1,https://www.google.com/search?q=recipes&oq=recipes;https://www.google.com/search?q=healthy+recipes&oq=healthy+recipes
+https://rightsofwomen.org.uk/,Mobile,#663366,#FFFFFF,average,content,button,False,Yes,Hide your tracks,1,https://www.google.co.uk/
+https://www.solacewomensaid.org/,Mobile,#FF1900,#FFFFFF,average,top right,button,True,Yes,EXIT SITE,1,https://www.google.co.uk/
+https://thedashcharity.org.uk/,Mobile,#44B8BA,#FFFFFF,long,bottom right,button,True,Yes,EXIT SITE,1,https://www.bbc.co.uk/weather
+https://www.saferplaces.co.uk/,Mobile,#DD8284,#FFFFFF,average,bottom left,button,True,Cookie Notice,QUICK EXIT,1,https://www.bbc.co.uk/
+http://www.ashianasheffield.org/,Mobile,#B18DB1,#FFFFFF,average,top left,button,True,Yes,Hide this page,1,https://www.google.com/
+https://www.roshnibirmingham.org.uk/,Mobile,#7D0612,#2C2A7D,average,content,button,False,Yes,EXIT,1,https://www.google.com/
+https://abusedmeninscotland.org/,Mobile,#113D69,#FFFFFF,average,bottom right,button,True,Yes,Safety Exit,1,https://www.google.com/;https://www.google.com/
+https://www.opoka.org.uk/,Mobile,#F8AC00,#99035D,wide,side menu,banner,True,No,EXIT SITE,2,https://www.opoka.org.uk/;https://www.bbc.co.uk/weather/2654675
+https://www.saferwales.com/about-us,Mobile,#00888A,#201A16,average,side menu,menu item,True,No,EMERGENCY ESCAPE,1,https://www.bbc.co.uk/weather
+https://www.sdafmh.org.uk/en/,Mobile,#3C3735,#FFFFFF,average,bottom right,button,True,Yes,Exit,1,https://www.google.com/;https://www.bbc.co.uk/weather/2650225
+https://www.theelmfoundation.org.uk/,Mobile,#63B27C,#FFFFFF,average,top right,button,True,Yes,Leave to google/facebook,1,https://www.google.com/
+https://www.havenrefuge.org.uk/,Mobile,#815BAD,#FFFFFF,wide,bottom,banner,True,Cookie Notice,Exit Page,1,https://www.google.com/;https://www.google.com/;https://open.spotify.com/;https://www.nhs.uk/conditions/coronavirus-covid-19/how-to-avoid-catching-and-spreading-coronavirus-covid-19/;https://en.m.wikipedia.org/wiki/Main_Page;https://m.soundcloud.com/;https://www.audible.co.uk/;https://m.youtube.com/;https://www.msn.com/en-gb/news;https://www.broadbandspeedchecker.co.uk/;https://www.google.com/;https://www.gov.uk/coronavirus;https://metro.co.uk/;https://www.pinterest.co.uk/;https://en.m.wikipedia.org/wiki/Main_Page;https://m.youtube.com/;https://open.spotify.com/;https://www.google.com/
+https://www.thewishcentre.org/,Mobile,#11A19A,#FFFFFF,average,bottom left,button,True,Yes,Quick exit,1,https://www.google.co.uk/
+https://yourbestfriend.org.uk/,Mobile,#E72145,#FEF4F6,wide,bottom,banner,True,Yes,LEAVE THIS SITE,1,https://www.bbc.co.uk/news
+https://enough.campaign.gov.uk/,Mobile,#FF604D,#000000,wide,bottom,button,True,Cookie Notice,Quick exit this site,1,https://www.google.com/
+https://www.hestia.org/,Mobile,#F1BC41,#FFFFFF,average,right,button,True,Yes,Exit site,1,https://www.bbc.co.uk/
+https://womanstrust.org.uk/,Mobile,#EE0834,#FFFFFF,average,content,button,False,Yes,Quick Exit,1,https://www.google.co.uk/?gws_rd=ssl
+https://www.bright-sky.org.uk/,Mobile,DOWN
+https://www.womensaid.ie/,Mobile,#FFFFFF,#7F56C6,text,top,text,False,Yes,Change this site,1,https://www.her.ie/;https://www.her.ie/
+https://www.safeireland.ie/,Mobile,#969696,#FFFFFF,text,top,text,False,Yes,Exit this website NOW,1,https://www.google.ie/
+http://www.carlowwomensaid.ie/,Mobile,#CF0405,#FFFFFF,small,top right,button,True,Yes,ESCAPE,1,https://www.google.ie/
+https://www.westcorkwomensproject.ie/,Mobile,#BA1010,#2D527D,average,top,button,True,Yes,SAFE EXIT,1,https://www.google.ie/
+https://www.osscork.com/,Mobile,#000000,#FFFFFF,text,side menu,text,True,No,EXIT,2,https://www.google.com/
+https://donegalwomenscentre.ie/,Mobile,#3173AF,#FFFFFF,text,side menu,text,False,No,EXIT SITE NOW,2,https://www.google.ie/
+https://www.ldvs.org/,Mobile,#B80B6C,#FFFFFF,average,top right,button,False,Yes,Hide this page,1,https://www.register365.com/default/holding/index/domain/visitinishowen.com
+https://sdvs.ie/,Mobile,#64CAD7,#FFFFFF,long,right,button,True,Yes,EXIT SITE,1,https://www.google.ie/
+https://aoibhneas.ie/,Mobile,#6E7587,#D7D9E0,average,top right,button,True,Yes,Hide/Exit,1,https://www.google.ie/;https://www.rte.ie/
+http://www.teachtearmainn.ie/,Mobile,#FFFFFF,#2B3333,average,top,button,False,Yes,Safe Exit,1,https://www.google.ie/
+https://roscommonsafelink.ie/,Mobile,#D03A3A,#FFFFFF,average,bottom right,button,True,Yes,LEAVE SITE NOW,1,https://www.google.com/;https://www.google.com/
+https://www.droghedarefuge.org/,Mobile,#333333,#FFFFFF,small,top right,button,False,Yes,GET ME OFF THIS SITE!,1,https://www.google.ie/
+https://www.lwl.ie/,Mobile,#CE2525,#FFFFFF,average,top,button,True,Yes,EXIT THIS WEBSITE,1,https://www.google.ie/
+https://womensrefuge.org.nz/,Mobile,#745A9C,#44217A,text,side menu,menu item,False,No,Quick Exit,2,https://i.stuff.co.nz/
+https://www.safetotalk.nz/,Mobile,#FFFFFF,#2C3949,average,bottom right,button,True,Yes,Quick exit,1,https://www.google.co.nz/search?q=todays+weather
+https://www.areyouok.org.nz/,Mobile,#FFFFFF,#262020,average,bottom right,image,True,Yes,Exit,1,https://www.areyouok.org.nz/#ets
+https://nnfvs.org.nz/,Mobile,#000000,#90D1F3,average,top right,image,True,Yes,Quick Exit,1,https://www.google.com/
+https://www.avivafamilies.org.nz/,Mobile,#FFFFFF,#4D85C5,average,top,button,False,Yes,Quick exit,1,https://i.stuff.co.nz/
+https://taurangawomensrefuge.co.nz/,Mobile,#FFDD00,#EFF2F3,average,top right,button,True,No,QUICK EXIT,1,https://i.stuff.co.nz/
+https://www.1800respect.org.au/,Mobile,#D73A0F,#FBF8F2,average,top right,button,False,Yes,EXIT,1,https://www.google.com.au/
+https://www.dvconnect.org/,Mobile,#D94040,#FFFFFF,wide,top,banner,True,Yes,QUICK EXIT,1,https://www.google.com/
+https://dvcs.org.au/,Mobile,#B51500,#FFFFFF,average,content,button,False,Yes,QUICK ESCAPE,1,https://www.google.com/
+https://techsafety.org.au/,Mobile,#005C93,#FFFFFF,text,content,text,False,No,Exit from this website,1,https://www.google.com.au/
+https://www.servicesaustralia.gov.au/family-and-domestic-violence,Mobile,#604569,#000000,large,bottom,banner,True,Yes,QUICK EXIT,1,https://www.google.com.au/;https://www.google.com.au/
+https://www.safesteps.org.au/,Mobile,#FFFFFF,#7055C5,average,top right,button,True,Yes,Quick exit,1,https://www.google.com/
+https://www.ourwatch.org.au/,Mobile,#F6F6F6,#FFFFFF,average,top right,button,True,Yes,Quick exit,1,https://www.google.com.au/
+https://www.anrows.org.au/,Mobile,#7D791C,#000000,average,top right,button,False,Yes,QUICK ESCAPE,1,https://www.news.com.au/
+https://ntv.org.au/get-help/,Mobile,#008EA6,#3EA9BB,average,top right,button,False,Yes,QUICK EXIT,1,https://www.google.com.au/
+https://www.speakout.dcj.nsw.gov.au/,Mobile,#D000A7,#000000,average,top right,button,True,Yes,QUICK EXIT,1,http://www.bom.gov.au/
+https://safeandequal.org.au/,Mobile,#DD3333,#000000,average,top right,button,True,Yes,Quick Exit,1,https://www.google.com/
+https://www.relationshipsnsw.org.au/support-services-category/domestic-violence/,Mobile,#B3533F,#FFFFFF,average,bottom left,button,True,Yes,Quick exit,1,https://www.google.com/;http://www.bom.gov.au/
+https://www.whiteribbon.org.au/Find-Help/Help-Lines,Mobile,#000000,#FFFFFF,average,bottom right,button,True,Yes,Quick Exit (esc),1,https://www.google.com/
+https://www.anglicarevic.org.au/,Mobile,#333333,#FFFFFF,small,right,image,True,Yes,,1,https://www.google.com/
+https://www.cnv.org.au/,Mobile,#B8CCA3,#FFFFFF,wide,bottom,banner,True,Yes,QUICK EXIT,1,http://www.bom.gov.au/;https://m.facebook.com/
+https://www.techsafety.org/,Mobile,,#FFFFFF,average,content,button,False,No,QUICK EXIT,1,https://www.google.com/
+https://esperanzaunited.org/en/,Mobile,#FFFFFF,#00ABC7,small,left,image,True,Yes,,1,https://www.google.com/
+https://www.safehorizon.org/,Mobile,#EBEBEB,#FFFFFF,average,top,button,True,Yes,ESCAPE,2,https://www.google.com/
+https://theinitiativecolorado.org/,Mobile,#FFB800,#FFFFFF,wide,bottom,button,True,Yes,EXIT,1,https://weather.com/en-GB/?Goto=Redirected
+https://www.thehotline.org/,Mobile,#D94759,#592C5F,average,top right,button,True,Yes,exit,1,https://www.google.com/
+https://ncadv.org/,Mobile,#D53F15,#FFFFFF,average,bottom right,button,True,Yes,Safety Exit!,1,https://ncadv.org/
+https://www.cadamn.org/,Mobile,#EE2E26,#FFFFFF,wide,top,button,True,Yes,LEAVE SITE,1,https://weather.com/en-GB/?Goto=Redirected
+https://www.vfmn.org/,Mobile,#EF6A5A,#6F3A8F,wide,top,banner,False,Yes,LEAVE SITE NOW,1,https://www.google.com/
+https://cornerstonemn.org/,Mobile,#D76D48,#FFFFFF,average,top right,button,False,Yes,LEAVE SITE,1,https://www.google.com/
+https://www.nrcdv.org/,Mobile,#521643,#FFFFFF,average,top left,button,False,Yes,Escape,1,https://www.google.com/
+http://www.nationalcenterdvtraumamh.org/,Mobile,#000000,#FFFFFF,small,top right,button,False,Yes,Escape To Google,1,https://www.google.com/
+https://www.futureswithoutviolence.org/,Mobile,#F58220,#FFFFFF,average,right,image,True,Yes,,1,https://www.google.com/
+https://nnedv.org/,Mobile,#F69D36,#A8A8AC,average,top,button,True,Yes,EXIT SITE,1,https://www.google.com/
+https://domesticviolenceresourcecenter.org/,Mobile,#FF8639,#FFFFFF,average,right,button,True,Yes,ESCAPE SITE,1,https://domesticviolenceresourcecenter.org/;https://www.vanityfair.com/
+https://www.learningtoendabuse.ca/,Mobile,#2196C5,#EEEEEE,average,top left,button,False,Yes,HIDE THIS PAGE,1,https://www.google.ca/
+https://endingviolence.org/,Mobile,#D39F0E,#661308,average,top right,button,False,Yes,Exit Now,1,https://www.google.com/
+https://domesticabuseservices.ca/,Mobile,#8ABEC4,#FFFFFF,average,bottom right,button,True,Yes,Quick Exit,1,https://www.ted.com/podcasts;https://www.google.com/
+https://endingviolencecanada.org/,Mobile,#000000,#FFFFFF,average,side menu,menu item,False,Yes,EXIT NOW,2,https://www.theweathernetwork.com/
+https://www.lawc.on.ca/,Mobile,#6A5CA0,#FFFFFF,average,right,button,True,Yes,EXIT,1,https://www.google.ca/?gws_rd=ssl
+https://www.anovafuture.org/,Mobile,#FFFFFF,#202325,average,top left,button,True,Yes,Hide screen,1,https://www.google.com/
+https://www.fvps.ca/,Mobile,#865EA0,#FFFFFF,wide,content,banner,False,Yes,Please click here if you need to leave this site quickly,1,https://www.google.ca/
+https://ywcaregina.com/,Mobile,#EFEFEF,#EFEFEF,wide,top,button,False,Yes,Click here to exit site quickly!,1,https://www.theweathernetwork.com/
+https://wrrcsa.org/,Mobile,#DF5837,#FFFFFF,average,top right,button,True,Yes,QUICK ESCAPE,1,https://www.google.com/;https://weather.com/en-GB/?Goto=Redirected
+https://sheltersafe.ca/,Mobile,#000000,#D8ADD0,text,side menu,menu item,False,No,HIDE PAGE,1,https://www.theweathernetwork.com/
