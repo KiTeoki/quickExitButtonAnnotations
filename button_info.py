@@ -95,6 +95,13 @@ def click_text_btn():
     click_type_btn("text")
     click_size_btn("text")
 
+def click_menu_button():
+    click_loc_btn("side menu")
+    click_type_btn("menu item")
+    click_sticky_btn("No")
+    click_visible_btn("No")
+    entry_vars['clicks to exit'].set(2)
+
 landing_entry = None
 def save_landing_sites():
     global browser
@@ -190,6 +197,8 @@ def make_eval_window():
             if r==0 and c==2:
                 button.configure(bg='#00c000')
                 default_buttons.append(button)
+            if r==3 and c==1:
+                button.configure(command=click_menu_button)
             button.grid(row=r + 1, column=c, sticky='nesw')
             loc_btns.append(button)
             buttons.append(button)
@@ -204,6 +213,8 @@ def make_eval_window():
         if i == 0:
             button.configure(bg='#00c000')
             default_buttons.append(button)
+        if i == 3:
+            button.configure(command=click_menu_button)
         if i == 4:
             button.configure(command=click_text_btn)
         button.grid(row=1, column=i, sticky='nesw')
