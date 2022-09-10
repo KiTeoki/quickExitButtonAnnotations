@@ -5,6 +5,7 @@ from math import sqrt
 import scipy.stats as stats
 import pandas as pd
 import matplotlib.pyplot as plt
+from matplotlib.patches import Patch
 from statsmodels.graphics.mosaicplot import mosaic
 
 from evaluate import sitelist_filename
@@ -91,18 +92,39 @@ def chi_squared_tests(platform, mechanism, use_collapsed_categories=False):
     return chi2_country, chi2_category, dof, min(p_country, 1-p_country), min(p_category, 1-p_category)
 
 def draw_mosaic(counts, residuals, platform, mechanism):
+    # Set colour based on residuals
     props = lambda k: {'color': 'red' if residuals[k] > 4 else
-                                'orange' if residuals[k] > 2 else
-                                'yellow' if residuals[k] > 0.5 else
-                                'darkblue' if residuals[k] < -4 else
-                                'blue' if residuals[k] < -2 else
-                                'lightblue' if residuals[k] < -0.5 else
-                                'grey'
-                       }
-    labeliser = lambda k: ''#"\n".join(k) if abs(residuals[k])>4 else ''
-    mosaic(counts, gap=0.01, properties=props, labelizer=labeliser, label_rotation=(20,0,0,0),
+                                'brown' if residuals[k] > 2 else
+                                'saddlebrown' if residuals[k] > 0.5 else
+                                'blue' if residuals[k] < -4 else
+                                'teal' if residuals[k] < -2 else
+                                'yellowgreen' if residuals[k] < -0.5 else
+                                'green' # -0.5 <= r <= 0.5
+    }
+    # Provide same colours with labels for the legend
+    legend_colours = [
+        Patch(color='red', label='residual > 4'),
+        Patch(color='brown', label='4 >= residual > 2'),
+        Patch(color='saddlebrown', label='2 >= residual > .5'),
+        Patch(color='green', label='0.5 >= residual >= -0.5'),
+        Patch(color='yellowgreen', label='-0.5 > residual >= -2'),
+        Patch(color='teal', label='-2 > residual >= -4'),
+        Patch(color='blue', label='-4 > residual'),
+    ]
+    # Generate plot for this figure
+    fig, ax = plt.subplots(figsize=(10,6))
+    # Remove all labels
+    labeliser = lambda k: '' #"\n".join(k) if abs(residuals[k])>4 else ''
+    # Generate a mosaic plot based on counts with colours given by associated residuals
+    mosaic(counts, ax=ax, gap=0.01, labelizer=labeliser, properties=props,
            title='Presence of '+platform+' '+mechanism)
-    plt.show()
+    # Fix x labels
+    plt.setp(ax.get_xticklabels(), rotation=45, horizontalalignment='right')
+    # Add legend
+    fig.legend(handles=legend_colours, loc=(0.725, 0.5))
+    # Fix spacing
+    fig.subplots_adjust(left=0.1, right=0.7, bottom=0.2)
+    fig.show()
 
 if __name__ == '__main__':
     print(chi_squared_tests('Desktop', 'Button'))
