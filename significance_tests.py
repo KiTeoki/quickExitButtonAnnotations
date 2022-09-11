@@ -112,7 +112,7 @@ def draw_mosaic(counts, residuals, platform, mechanism):
         Patch(color='blue', label='-4 > residual'),
     ]
     # Generate plot for this figure
-    fig, ax = plt.subplots(figsize=(10,6))
+    fig, ax = plt.subplots(figsize=(10,5))
     # Remove all labels
     labeliser = lambda k: '' #"\n".join(k) if abs(residuals[k])>4 else ''
     # Generate a mosaic plot based on counts with colours given by associated residuals
@@ -123,7 +123,7 @@ def draw_mosaic(counts, residuals, platform, mechanism):
     # Add legend
     fig.legend(handles=legend_colours, loc=(0.725, 0.5))
     # Fix spacing
-    fig.subplots_adjust(left=0.1, right=0.7, bottom=0.2)
+    fig.subplots_adjust(left=0.1, right=0.7, bottom=0.25)
     fig.show()
 
 if __name__ == '__main__':
