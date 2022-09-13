@@ -70,8 +70,8 @@ def chi_squared_tests(platform, mechanism, use_collapsed_categories=False):
         r_ij = float(country_counts[country,'Absent'] - e_ij) / sqrt(e_ij) if e_ij != 0 else 0
         residuals[country,'Absent'] = r_ij
         chi2_country += r_ij ** 2
-    dof = (len(countries) - 1) * (len(selected_categories) - 1)
-    p_country = 1 - stats.chi2.cdf(chi2_country, dof)
+    dof_country = len(countries) - 1
+    p_country = 1 - stats.chi2.cdf(chi2_country, dof_country)
     draw_mosaic(country_counts, residuals, platform, mechanism)
 
     chi2_category = 0
@@ -86,10 +86,11 @@ def chi_squared_tests(platform, mechanism, use_collapsed_categories=False):
         r_ij = float(category_counts[category,'Absent'] - e_ij) / sqrt(e_ij) if e_ij != 0 else 0
         residuals[category,'Absent'] = r_ij
         chi2_category += r_ij ** 2
-    p_category = 1 - stats.chi2.cdf(chi2_country, dof)
+    dof_category = len(selected_categories) - 1
+    p_category = 1 - stats.chi2.cdf(chi2_category, dof_category)
     draw_mosaic(category_counts, residuals, platform, mechanism)
 
-    return chi2_country, chi2_category, dof, min(p_country, 1-p_country), min(p_category, 1-p_category)
+    return chi2_country, chi2_category, dof_country, min(p_country, 1-p_country), dof_category, min(p_category, 1-p_category)
 
 def draw_mosaic(counts, residuals, platform, mechanism):
     # Set colour based on residuals
