@@ -90,7 +90,7 @@ def chi_squared_tests(platform, mechanism, use_collapsed_categories=False):
     p_category = 1 - stats.chi2.cdf(chi2_category, dof_category)
     draw_mosaic(category_counts, residuals, platform, mechanism)
 
-    return chi2_country, chi2_category, dof_country, min(p_country, 1-p_country), dof_category, min(p_category, 1-p_category)
+    return chi2_country, dof_country, p_country, chi2_category, dof_category, p_category
 
 def draw_mosaic(counts, residuals, platform, mechanism):
     # Set colour based on residuals
@@ -128,11 +128,11 @@ def draw_mosaic(counts, residuals, platform, mechanism):
     fig.show()
 
 if __name__ == '__main__':
-    print(chi_squared_tests('Desktop', 'Button'))
+    print("Desktop button:", chi_squared_tests('Desktop', 'Button'))
     #print(chi_squared_tests('Desktop', 'Shortcut'))
-    print(chi_squared_tests('Mobile', 'Button'))
+    print("Mobile button:", chi_squared_tests('Mobile', 'Button'))
     #print(chi_squared_tests('Mobile', 'Shortcut'))
-    print(chi_squared_tests('Desktop', 'Button', True))
+    print("Desktop button [combined]:", chi_squared_tests('Desktop', 'Button', True))
     #print(chi_squared_tests('Desktop', 'Shortcut', True))
-    print(chi_squared_tests('Mobile', 'Button', True))
+    print("Mobile button [combined]:", chi_squared_tests('Mobile', 'Button', True))
     #print(chi_squared_tests('Mobile', 'Shortcut', True))
