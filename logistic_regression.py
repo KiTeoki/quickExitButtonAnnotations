@@ -39,12 +39,13 @@ if __name__ == '__main__':
 
         # Pick out best factors
         logreg = LogisticRegression()
-        rfe = RFE(logreg, n_features_to_select=5)
+        rfe = RFE(logreg)
         rfe = rfe.fit(X, y)
         chosen = np.array(x_cols)[rfe.support_]
         X = data[chosen]
 
         # See stats for chosen factors
         logit_model = sm.Logit(y, X)
-        result = logit_model.fit(method='minimize', maxiter=100)
+        result = logit_model.fit(method='minimize', maxiter=500)
         print(result.summary())
+        print(f"chi2:{result.llr}, p value: {result.llr_pvalue}")
