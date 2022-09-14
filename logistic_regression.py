@@ -9,14 +9,15 @@ from math import e, exp, log
 from sys import exit
 
 def compute_logreg_stats(coef, std_err):
-    return pow(e, coef), pow(e, coef - (1.96 * std_err)), pow(e, coef + (1.96 * std_err))
+    o, l, h = pow(e, coef), pow(e, coef - (1.96 * std_err)), pow(e, coef + (1.96 * std_err))
+    return f"{o:.3f} & {l:.3f} & {h:.3f} \\"
 
 if __name__ == '__main__':
     data = pd.read_csv("logistic_regression_info.csv")
     # Divide the data to training set and test set
     x_cols = [
         "Size_text","Size_small","Size_average","Size_wide","Size_long","Size_large",
-        "Location_top_left","Location_top","Location_top_right","Location_left","Location_content","Location_right","Location_bottom_left","Location_bottom","Location_bottom_right","Location_dropdown","Location_menu",
+        "Location_top_left","Location_top","Location_top_right","Location_left","Location_content","Location_right","Location_bottom_left","Location_bottom","Location_bottom_right","Location_menu", #,"Location_dropdown" - only 1 site
         "Type_button","Type_banner","Type_image_icon","Type_menu_item","Type_text",
         "Sticky","Labelled","Single_click",
         "Visible_yes","Visible_covered","Visible_no",
@@ -28,6 +29,14 @@ if __name__ == '__main__':
         #"safety-discover","learn_explainer_time","recall_explainer_time"
     ]
     for ycol in y_cols:
+        if ycol == "button-distinct":
+            x_cols.remove("Location_menu")
+            x_cols.remove("Type_menu_item")
+            x_cols.remove("Location_content")
+            x_cols.remove("Size_large")
+        elif ycol == "learn_button_time":
+            x_cols.remove("Size_small")
+            x_cols.remove("Location_bottom_left")
         X = data[x_cols]
         print(ycol)
         if "time" in ycol:
