@@ -11,7 +11,7 @@ from statsmodels.graphics.mosaicplot import mosaic
 from evaluate import sitelist_filename
 
 countries = ['UK', 'Ireland', 'Australia', 'New Zealand', 'USA', 'Canada']
-categories = ['Domestic Abuse', 'Rape/SA', 'LGBTQ+', 'BAME(R)', 'Sobreity', 'Smoking', 'Gambling',
+categories = ['Domestic Abuse', 'Rape/SA', 'LGBTQ+', 'BAME(R)', 'Sobriety', 'Smoking', 'Gambling',
               'Family Planning', 'Parenting', 'Children', 'Homelessness', 'Sexual health', 'Mental Health',
               'Physical Health', 'Disability', 'Elderly', 'Past offenders', 'Victims', 'Police', 'Misc']
 collapsed_categories = ['Gendered Violence', 'Minorities', 'Addiction', 'Families', 'Healthcare', 'Crime', 'Misc']
@@ -27,11 +27,14 @@ def count_mechanisms(platform, mechanism, use_collapsed_categories=False):
         reader = csv.DictReader(f)
         for site in reader:
             category = site['Category']
+            # Fix typos programmatically. oops.
+            if category == 'Sobreity':
+                category = 'Sobriety'
             # Collapse categories
             if use_collapsed_categories:
                 if category in ['Domestic Abuse', 'Rape/SA']: category = 'Gendered Violence'
                 elif category in ['LGBTQ+', 'BAME(R)']: category = 'Minorities'
-                elif category in ['Sobreity', 'Smoking', 'Gambling']: category = 'Addiction'
+                elif category in ['Sobriety', 'Smoking', 'Gambling']: category = 'Addiction'
                 elif category in ['Family Planning', 'Parenting', 'Children']: category = 'Families'
                 elif category in ['Sexual health', 'Mental Health', 'Physical Health', 'Disability']: category = 'Healthcare'
                 elif category in ['Past offenders', 'Victims', 'Police']: category = 'Crime'
