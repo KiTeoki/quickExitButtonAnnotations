@@ -27,9 +27,6 @@ def count_mechanisms(platform, mechanism, use_collapsed_categories=False):
         reader = csv.DictReader(f)
         for site in reader:
             category = site['Category']
-            # Fix typos programmatically. oops.
-            if category == 'Sobreity':
-                category = 'Sobriety'
             # Collapse categories
             if use_collapsed_categories:
                 if category in ['Domestic Abuse', 'Rape/SA']: category = 'Gendered Violence'
