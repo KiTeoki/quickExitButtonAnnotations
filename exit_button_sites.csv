@@ -1,5 +1,5 @@
 URL,Category,Region,Desktop Exit Button?,Mobile Exit button?,Keyboard shortcut type,Shortcut keys,Mobile shortcut?,explainer text?,Safe browsing url,Comments
-https://www.womensaid.org.uk/,Domestic Abuse,UK,Redirect,,,,,,,HOW DO DIFFERENT BRANCHES OF WOMENS AID HAVE SO MANY VARIATIONS
+https://www.womensaid.org.uk/,Domestic Abuse,UK,Redirect,,,,,,,
 http://www.berkshirewomensaid.org.uk/,Domestic Abuse,UK,Redirect,Redirect,,,,,,
 https://fifewomensaid.org.uk/,Domestic Abuse,UK,Redirect,Redirect,,,,,,
 https://www.jwa.org.uk/,Domestic Abuse,UK,Redirect,Redirect,,,,,,
@@ -96,7 +96,7 @@ https://www.joinonelove.org/,Domestic Abuse,USA,,,,,,,,
 https://incite-national.org/,Domestic Abuse,USA,,,,,,,,
 https://esperanzaunited.org/en/,Domestic Abuse,USA,Redirect,Redirect,,,,On-load Pop-up,,States they have a keyboard shortcut (ESCx2) but it doesn't work
 https://www.nwnetwork.org/,Domestic Abuse,USA,,,,,,,,
-https://www.safehorizon.org/,Domestic Abuse,USA,window.location writer,window.location writer,,,,,,Button is in a tab on side of screen which has to animate open before clicking - usabiity issue
+https://www.safehorizon.org/,Domestic Abuse,USA,window.location writer,window.location writer,,,,,,Button is in a tab on side of screen which has to animate open before clicking - usability issue
 https://theinitiativecolorado.org/,Domestic Abuse,USA,Redirect,Redirect,,,,On-load Pop-up,https://nnedv.org/content/internet-computer-safety/,
 https://www.udvc.org/,Domestic Abuse,USA,Redirect,,,,,,,Sticky version text not visible on mobile
 https://www.thehotline.org/,Domestic Abuse,USA,window.location writer,window.location writer,window.location writer,esc+esc,,On-load Pop-up,,
@@ -850,7 +850,7 @@ https://maronitecare.org.au/,Family Planning,Australia,,,,,,,,
 https://www.bluewatermedical.com.au/,Family Planning,Australia,,,,,,,,
 https://www.abortiononline.com.au/,Family Planning,Australia,,,,,,,,
 https://www.tabbot.com.au/,Family Planning,Australia,,,,,,,,
-https://midwestaccesscoalition.org/,Family Planning,USA,window.location writer,window.location writer,,,,,,CODE FROM THAT ONE CITATION; Code actually includes new tab as well as overwriting current tab but order of execution means new tab does not open.
+https://midwestaccesscoalition.org/,Family Planning,USA,window.location writer,window.location writer,,,,,,
 https://www.plannedparenthood.org/,Family Planning,USA,,,,,,,,
 https://www.latinainstitute.org/,Family Planning,USA,,,,,,,,
 https://reproductiverights.org/,Family Planning,USA,,,,,,,,
@@ -936,7 +936,7 @@ https://mountainaccessbrigade.org/,Family Planning,USA,Redirect,Redirect,,,,,,
 https://www.theafiyacenter.org/,Family Planning,USA,,,,,,,,
 https://www.bucklebunnies.org/,Family Planning,USA,,,,,,,,
 https://thebridgecollective.org/,Family Planning,USA,,,,,,,,
-https://www.clinicaccess.org/,Family Planning,USA,,,,,,,,temporarily down while lawyering about rvw
+https://www.clinicaccess.org/,Family Planning,USA,,,,,,,,temporarily down because of Roe vs Wade
 https://fronterafundrgv.org/,Family Planning,USA,,,,,,,,
 https://fundtexaschoice.org/,Family Planning,USA,,,,,,,,
 https://janesdueprocess.org/,Family Planning,USA,,,Write+new tab,esc+esc,,On-load Pop-up,,
@@ -1928,7 +1928,7 @@ https://www.victimservices-york.org/,Victims,Canada,Redirect,Redirect,,,,,,
 https://www.cdvs.ca/,Victims,Canada,Redirect,Redirect,,,,,,
 https://www.vslg.ca/,Victims,Canada,Redirect,,,,,,,
 https://victimserviceskingston.ca/,Victims,Canada,Redirect,Redirect,,,,,,
-https://www.police.uk/,Police,UK,Redirect,Redirect,,,,,,All 43 county.police.uk sites have the same button in the same place
+https://www.police.uk/,Police,UK,Redirect,Redirect,,,,,,Most of the 43 county.police.uk sites have the same button in the same place
 https://www.scotland.police.uk/,Police,UK,,,,,,,,
 https://www.psni.police.uk/,Police,UK,,,,,,,,
 https://www.policefed-ni.org.uk/,Police,UK,,,,,,,,
