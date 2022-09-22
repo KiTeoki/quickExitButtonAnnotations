@@ -1,9 +1,12 @@
 import csv
+from functools import reduce
+from collections import defaultdict
 import os
 import tkinter as tk
 import threading
 import time
 from sys import exit
+from statistics import stdev, median, mean
 
 from evaluate import Site, parse_site_list, desktop_site_list, mobile_site_list, sitelist_filename
 from evaluate import desktop_browser, mobile_browser, cleanup_browser
@@ -300,8 +303,28 @@ def save_and_next():
         print("You're done with annotations!")
         exit(0)
 
+def get_annotation_stats():
+    timing_qs = ['learn_button_time', 'recall_button_time', 'learn_shortcut_time', 'recall_shortcut_time',
+                 'learn_explainer_time', 'recall_explainer_time']
+    times = {q: [] for q in timing_qs}
+
+    # filenames blinded temporarily
+    for filename in ['evaluation1.json', 'evaluation2.json']:
+        with open(filename, 'r') as annotations_file:
+            parsed_json = json.load(annotations_file)
+            annotations = parsed_json['evaluated']
+            for site in annotations:
+                for test in timing_qs:
+                    if test in site and float(site[test]) > 0.1:
+                        times[test].append(float(site[test]))
+    for q in timing_qs:
+        print(f'{median(times[q]):.2f} & {mean(times[q]):.2f} & [{min(times[q]):.2f}, {max(times[q]):.2f}] & {stdev(times[q]):.2f} \\\\')
+
 
 if __name__ == '__main__':
+    #get_annotation_stats()
+    #combine_data()
+
     parse_site_list()
     # Make window
     root = make_eval_window()
